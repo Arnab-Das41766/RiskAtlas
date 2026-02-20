@@ -15,6 +15,7 @@ import { PolicyAlertsFeed } from '@/components/PolicyAlertsFeed';
 import { AIForecasting } from '@/components/AIForecasting';
 import { SupplyChainVulnerability } from '@/components/SupplyChainVulnerability';
 import { AlternativeSuppliers } from '@/components/AlternativeSuppliers';
+import { CountrySearch } from '@/components/CountrySearch';
 import { getCountries, getCountry } from '@/services/api';
 import type { Country, CountryDetail } from '@/types';
 import './App.css';
@@ -128,9 +129,16 @@ function App() {
                       <Globe className="w-5 h-5 text-blue-400" />
                       Global Risk Intelligence Map
                     </h2>
-                    <div className="flex items-center gap-2 text-sm text-slate-400">
-                      <Zap className="w-4 h-4 text-yellow-400" />
-                      <span className="hidden sm:inline">Real-time Data</span>
+                    <div className="flex items-center gap-4">
+                      <CountrySearch
+                        countries={countries}
+                        onSelect={handleCountrySelect}
+                        selectedCountryId={selectedCountry?.id}
+                      />
+                      <div className="hidden sm:flex items-center gap-2 text-sm text-slate-400">
+                        <Zap className="w-4 h-4 text-yellow-400" />
+                        <span>Real-time Data</span>
+                      </div>
                     </div>
                   </div>
                   <div className="h-[calc(100%-65px)]">

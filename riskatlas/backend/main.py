@@ -42,10 +42,10 @@ COUNTRIES_DATA = {
         "tariff_percentage": 15.5,
         "trade_policy_summary": "Stable trade environment with recent tariff adjustments on tech imports. Strong IP protection laws. CHIPS Act driving domestic semiconductor manufacturing.",
         "headlines": [
-            {"title": "US announces new semiconductor export controls", "source": "Trade Weekly", "date": "2024-01-15", "category": "Policy", "impact": "high"},
-            {"title": "Bilateral trade agreement negotiations progress with EU", "source": "Global Trade News", "date": "2024-01-12", "category": "Diplomacy", "impact": "medium"},
-            {"title": "Tariff review scheduled for Q2 2024", "source": "Commerce Daily", "date": "2024-01-10", "category": "Tariff", "impact": "medium"},
-            {"title": "CHIPS Act funding boosts domestic chip production", "source": "Tech Policy", "date": "2024-01-08", "category": "Policy", "impact": "high"}
+            {"title": "US announces 25% tariff on Mexico and Canada via executive order", "source": "Reuters", "date": "2025-02-10", "category": "Tariff", "impact": "high"},
+            {"title": "New 10% tariff on Chinese imports takes effect", "source": "Bloomberg", "date": "2025-02-15", "category": "Tariff", "impact": "high"},
+            {"title": "Reciprocal Tariff framework (10% global minimum) established", "source": "Trade Monitor", "date": "2025-04-12", "category": "Policy", "impact": "high"},
+            {"title": "US imposes 50% tariff on India and Brazil imports", "source": "Commerce Daily", "date": "2025-07-14", "category": "Policy", "impact": "high"}
         ],
         "coordinates": {"lat": 37.0902, "lng": -95.7129},
         "key_industries": ["Semiconductors", "Automotive", "Pharmaceuticals", "Electronics"],
@@ -67,10 +67,10 @@ COUNTRIES_DATA = {
         "tariff_percentage": 25.0,
         "trade_policy_summary": "Elevated geopolitical tensions affecting trade relations. Increased scrutiny on tech transfers. Currency volatility concerns. Rare earth export controls tightened.",
         "headlines": [
-            {"title": "New regulations on foreign investment in tech sector", "source": "Asia Business Review", "date": "2024-01-16", "category": "Regulation", "impact": "high"},
-            {"title": "Trade tensions rise over rare earth export quotas", "source": "Commodities Today", "date": "2024-01-14", "category": "Geopolitics", "impact": "high"},
-            {"title": "Tariff retaliation measures announced", "source": "Trade Monitor", "date": "2024-01-11", "category": "Tariff", "impact": "high"},
-            {"title": "Semiconductor self-sufficiency program accelerates", "source": "China Tech", "date": "2024-01-09", "category": "Policy", "impact": "medium"}
+            {"title": "China introduces new export control regulations for dual-use items", "source": "MOFCOM", "date": "2024-10-22", "category": "Regulation", "impact": "high"},
+            {"title": "New Dual-Use Items Export Control List published", "source": "China Briefing", "date": "2024-11-15", "category": "Policy", "impact": "high"},
+            {"title": "Export controls on advanced semiconductor manufacturing equipment expanded", "source": "Asia Tech", "date": "2024-12-05", "category": "Regulation", "impact": "high"},
+            {"title": "US-China agree to extend select tariff reductions through 2026", "source": "Bloomberg Asia", "date": "2025-11-20", "category": "Agreement", "impact": "medium"}
         ],
         "coordinates": {"lat": 35.8617, "lng": 104.1954},
         "key_industries": ["Electronics", "Raw Materials", "Textiles", "Semiconductors"],
@@ -117,9 +117,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 18.0,
         "trade_policy_summary": "Emerging market with currency volatility. Agricultural exports stable but regulatory changes frequent. Moderate political risk. Strengthening Mercosur position.",
         "headlines": [
-            {"title": "Brazil strengthens Mercosur trade bloc position", "source": "LatAm Trade", "date": "2024-01-16", "category": "Trade Bloc", "impact": "medium"},
-            {"title": "New environmental regulations impact agricultural exports", "source": "AgriBusiness News", "date": "2024-01-14", "category": "Regulation", "impact": "high"},
-            {"title": "Currency fluctuations affect import costs", "source": "Financial Times BR", "date": "2024-01-12", "category": "Currency", "impact": "medium"}
+            {"title": "Brazil pushes for Mercosur-EU agreement finalization", "source": "LatAm Trade", "date": "2024-03-10", "category": "Trade Bloc", "impact": "medium"},
+            {"title": "US imposes 50% tariff on Brazilian imports in new trade schedule", "source": "Bloomberg", "date": "2025-07-14", "category": "Tariff", "impact": "high"},
+            {"title": "Renewable energy sector attracts record FDI in 2024", "source": "Finance BR", "date": "2024-08-22", "category": "Investment", "impact": "medium"}
         ],
         "coordinates": {"lat": -14.2350, "lng": -51.9253},
         "key_industries": ["Agriculture", "Raw Materials", "Energy"],
@@ -141,9 +141,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 22.5,
         "trade_policy_summary": "Growing market with protectionist tendencies. Complex tariff structure but improving ease of doing business. Major beneficiary of China+1 strategy.",
         "headlines": [
-            {"title": "India reduces tariffs on electronics imports", "source": "Tech Trade India", "date": "2024-01-15", "category": "Tariff", "impact": "medium"},
-            {"title": "New FDI rules in retail sector announced", "source": "Business Standard", "date": "2024-01-13", "category": "Investment", "impact": "medium"},
-            {"title": "Production-linked incentive scheme attracts manufacturers", "source": "Economic Times", "date": "2024-01-11", "category": "Policy", "impact": "high"}
+            {"title": "India joins US-led initiative for secure technology supply chains", "source": "Business Standard", "date": "2024-01-18", "category": "Policy", "impact": "medium"},
+            {"title": "UK-India Free Trade Agreement negotiations enter final round", "source": "BBC News", "date": "2024-02-15", "category": "Agreement", "impact": "high"},
+            {"title": "US imposes 50% tariff on Indian imports under secondary trade reviews", "source": "Global Trade Daily", "date": "2025-07-20", "category": "Tariff", "impact": "high"}
         ],
         "coordinates": {"lat": 20.5937, "lng": 78.9629},
         "key_industries": ["Textiles", "Pharmaceuticals", "Electronics", "Automotive"],
@@ -190,9 +190,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 5.2,
         "trade_policy_summary": "Highly stable trade environment. Strong rule of law. Low tariff barriers for most goods. Reliable partner. Advanced manufacturing and technology hub.",
         "headlines": [
-            {"title": "Japan-US trade agreement enters new phase", "source": "Nikkei Asia", "date": "2024-01-15", "category": "Agreement", "impact": "medium"},
-            {"title": "Tech sector sees increased foreign investment", "source": "Japan Times", "date": "2024-01-13", "category": "Investment", "impact": "low"},
-            {"title": "Semiconductor material exports to expand", "source": "Tech Japan", "date": "2024-01-10", "category": "Industry", "impact": "medium"}
+            {"title": "Japan updates export controls on advanced chip manufacturing equipment", "source": "Nikkei News", "date": "2024-11-11", "category": "Export Control", "impact": "high"},
+            {"title": "Investment in domestic semiconductor fabs surges", "source": "Japan Times", "date": "2024-09-13", "category": "Investment", "impact": "low"},
+            {"title": "New trade framework discussed with ASEAN partners", "source": "Tech Japan", "date": "2024-12-10", "category": "Diplomacy", "impact": "medium"}
         ],
         "coordinates": {"lat": 36.2048, "lng": 138.2529},
         "key_industries": ["Semiconductors", "Automotive", "Electronics"],
@@ -262,9 +262,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 12.5,
         "trade_policy_summary": "Nearshoring destination for US companies. USMCA trade agreement provides stability. Automotive and electronics manufacturing growing rapidly.",
         "headlines": [
-            {"title": "Nearshoring boom continues with new factory announcements", "source": "Mexico Today", "date": "2024-01-16", "category": "Investment", "impact": "high"},
-            {"title": "Automotive production reaches record levels", "source": "Auto Mexico", "date": "2024-01-14", "category": "Industry", "impact": "medium"},
-            {"title": "USMCA compliance review scheduled", "source": "Trade North America", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+            {"title": "US imposes 25% tariff on Mexican imports via executive order", "source": "El Universal", "date": "2025-02-10", "category": "Tariff", "impact": "high"},
+            {"title": "Nearshoring boom continues as US companies shift manufacturing from Asia", "source": "Mexico News Daily", "date": "2024-11-16", "category": "Investment", "impact": "high"},
+            {"title": "EU-Mexico trade agreement update finalized", "source": "Trade Monitor", "date": "2024-05-12", "category": "Agreement", "impact": "medium"}
         ],
         "coordinates": {"lat": 23.6345, "lng": -102.5528},
         "key_industries": ["Automotive", "Electronics", "Agriculture"],
@@ -359,9 +359,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 7.0,
         "trade_policy_summary": "Post-Brexit trade framework stabilizing. Strong services sector and growing tech ecosystem. Predictable regulatory environment.",
         "headlines": [
-            {"title": "New trade deals signed with Indo-Pacific partners", "source": "FT", "date": "2024-01-16", "category": "Diplomacy", "impact": "medium"},
-            {"title": "Services sector growth exceeds expectations", "source": "BBC Business", "date": "2024-01-14", "category": "Economy", "impact": "low"},
-            {"title": "UK AI Safety Summit drives new regulations", "source": "TechUK", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+            {"title": "UK-India Free Trade Agreement negotiations finalize", "source": "Financial Times", "date": "2024-02-15", "category": "Agreement", "impact": "high"},
+            {"title": "UK joins CPTPP trade bloc to boost Indo-Pacific trade", "source": "BBC News", "date": "2024-01-20", "category": "Diplomacy", "impact": "medium"},
+            {"title": "New regulatory framework for AI and tech startups launched", "source": "London Biz", "date": "2024-03-12", "category": "Policy", "impact": "medium"}
         ],
         "coordinates": {"lat": 55.3781, "lng": -3.4360},
         "key_industries": ["Pharmaceuticals", "Energy", "Electronics"],
@@ -383,9 +383,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 8.0,
         "trade_policy_summary": "Stable EU member with strong industrial base. Focus on strategic autonomy in energy and pharmaceuticals.",
         "headlines": [
-            {"title": "New industrial decarbonization fund launched", "source": "Le Monde Business", "date": "2024-01-15", "category": "Energy", "impact": "medium"},
-            {"title": "Agricultural exports remain strong amidst EU reforms", "source": "Eurostat", "date": "2024-01-13", "category": "Agriculture", "impact": "low"},
-            {"title": "Tech startup funding reaches new record", "source": "France Tech", "date": "2024-01-10", "category": "Investment", "impact": "medium"}
+            {"title": "France expands strategic autonomy initiatives in pharmaceuticals", "source": "Le Monde", "date": "2024-03-15", "category": "Policy", "impact": "medium"},
+            {"title": "New EU-wide dual-use export control regime supported by France", "source": "Paris Trade", "date": "2025-09-13", "category": "Regulation", "impact": "medium"},
+            {"title": "Green hydrogen infrastructure project hits massive milestone", "source": "Energy Daily", "date": "2024-11-10", "category": "Investment", "impact": "medium"}
         ],
         "coordinates": {"lat": 46.2276, "lng": 2.2137},
         "key_industries": ["Pharmaceuticals", "Automotive", "Energy", "Agriculture"],
@@ -407,9 +407,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 6.5,
         "trade_policy_summary": "Stable USMCA partner. Strong natural resource exporter. Reliable regulatory framework and high supply chain resilience.",
         "headlines": [
-            {"title": "Critical minerals partnership expanded with US", "source": "Globe and Mail", "date": "2024-01-16", "category": "Raw Materials", "impact": "high"},
-            {"title": "Energy exports via TMX pipeline project update", "source": "Calgary Herald", "date": "2024-01-14", "category": "Energy", "impact": "medium"},
-            {"title": "New tech talent visa attracts global specialists", "source": "Financial Post", "date": "2024-01-11", "category": "Policy", "impact": "low"}
+            {"title": "US 25% tariff on Canadian imports takes effect via executive order", "source": "Global News", "date": "2025-02-10", "category": "Tariff", "impact": "high"},
+            {"title": "Canada implements 25% surtax on steel derivative goods", "source": "Canada Trade Bureau", "date": "2025-12-05", "category": "Tariff", "impact": "high"},
+            {"title": "Critical minerals partnership expanded with US and Australia", "source": "Globe and Mail", "date": "2024-03-16", "category": "Agreement", "impact": "medium"}
         ],
         "coordinates": {"lat": 56.1304, "lng": -106.3468},
         "key_industries": ["Raw Materials", "Energy", "Automotive"],
@@ -431,9 +431,9 @@ COUNTRIES_DATA = {
         "tariff_percentage": 5.0,
         "trade_policy_summary": "Major commodity exporter. Stable legal system. Pivoting trade relations toward SE Asia and strengthening links with US/UK.",
         "headlines": [
-            {"title": "Iron ore exports reach new highs in Q4", "source": "AFR", "date": "2024-01-15", "category": "Economy", "impact": "medium"},
-            {"title": "New critical minerals strategy launched", "source": "Government News", "date": "2024-01-13", "category": "Policy", "impact": "high"},
-            {"title": "Wine exports to China normalize", "source": "ABC News", "date": "2024-01-10", "category": "Agriculture", "impact": "medium"}
+            {"title": "Australia expands critical minerals partnership with US and UK", "source": "ABC News", "date": "2024-03-12", "category": "Agreement", "impact": "high"},
+            {"title": "Trade barriers on Australian wine and barley removed by China", "source": "Sydney Morning Herald", "date": "2024-04-15", "category": "Diplomacy", "impact": "high"},
+            {"title": "New green hydrogen export strategy launched", "source": "The Age", "date": "2024-11-20", "category": "Energy", "impact": "medium"}
         ],
         "coordinates": {"lat": -25.2744, "lng": 133.7751},
         "key_industries": ["Raw Materials", "Energy", "Agriculture"],
@@ -685,6 +685,962 @@ COUNTRIES_DATA = {
             "6_month": {"score": 47, "trend": "stable", "confidence": 78},
             "12_month": {"score": 45, "trend": "stable", "confidence": 65}
         }
+    },
+    "CH": {
+        "id": "CH",
+        "name": "Switzerland",
+        "risk_score": 15,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 4.0,
+        "trade_policy_summary": "Highly stable neutral state with premium export focus. Global leader in pharmaceuticals and precision engineering.",
+        "headlines": [
+            {"title": "Swiss precision exports reach record levels", "source": "Swissinfo", "date": "2024-01-16", "category": "Economy", "impact": "low"},
+            {"title": "Pharma giants announce new R&D investments", "source": "NZZ", "date": "2024-01-14", "category": "Pharmaceuticals", "impact": "medium"},
+            {"title": "Digital banking regulations updated", "source": "Finews", "date": "2024-01-11", "category": "Finance", "impact": "low"}
+        ],
+        "coordinates": {"lat": 46.8182, "lng": 8.2275},
+        "key_industries": ["Pharmaceuticals", "Electronics", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 99,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 15, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 16, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 16, "trend": "stable", "confidence": 85}
+        }
+    },
+    "NO": {
+        "id": "NO",
+        "name": "Norway",
+        "risk_score": 18,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Major energy exporter. High supply chain stability and low political risk. Strong focus on green transition and EV adoption.",
+        "headlines": [
+            {"title": "Offshore wind capacity reaches new milestone", "source": "Energy Norway", "date": "2024-01-16", "category": "Energy", "impact": "medium"},
+            {"title": "Energy exports to EU increase following winter demand", "source": "Aftenposten", "date": "2024-01-14", "category": "Economy", "impact": "low"},
+            {"title": "Sovereign wealth fund hits record value", "source": "Reuters", "date": "2024-01-12", "category": "Finance", "impact": "low"}
+        ],
+        "coordinates": {"lat": 60.4720, "lng": 8.4689},
+        "key_industries": ["Energy", "Raw Materials", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 97,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 18, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 19, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 20, "trend": "stable", "confidence": 85}
+        }
+    },
+    "SE": {
+        "id": "SE",
+        "name": "Sweden",
+        "risk_score": 20,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 6.0,
+        "trade_policy_summary": "Innovative economy with strong industrial and tech sectors. High digital integration and trade openness.",
+        "headlines": [
+            {"title": "Green steel production ramps up with new fab", "source": "Nordic Business", "date": "2024-01-15", "category": "Industry", "impact": "high"},
+            {"title": "Tech unicorns see valuation stability in 2024", "source": "Tech Stockholm", "date": "2024-01-13", "category": "Investment", "impact": "low"},
+            {"title": "Defense exports surge amid regional security focus", "source": "Defense News", "date": "2024-01-11", "category": "Industry", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 60.1282, "lng": 18.6435},
+        "key_industries": ["Automotive", "Electronics", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 96,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 21, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 22, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 23, "trend": "stable", "confidence": 80}
+        }
+    },
+    "PL": {
+        "id": "PL",
+        "name": "Poland",
+        "risk_score": 42,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Major manufacturing hub in Central Europe. Diversifying energy sources and investing heavily in defense and automotive sectors.",
+        "headlines": [
+            {"title": "EV battery production capacity hits record highs", "source": "PTE", "date": "2024-01-16", "category": "Automotive", "impact": "high"},
+            {"title": "Defense manufacturing contracts expanded", "source": "Defense Poland", "date": "2024-01-14", "category": "Industry", "impact": "medium"},
+            {"title": "Agri-exports to EU remain key economic driver", "source": "AgroNews", "date": "2024-01-11", "category": "Agriculture", "impact": "low"}
+        ],
+        "coordinates": {"lat": 51.9194, "lng": 19.1451},
+        "key_industries": ["Automotive", "Agriculture", "Electronics"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 92,
+        "alternative_to": ["RU", "CN"],
+        "ai_forecast": {
+            "3_month": {"score": 43, "trend": "stable", "confidence": 85},
+            "6_month": {"score": 44, "trend": "stable", "confidence": 78},
+            "12_month": {"score": 40, "trend": "decreasing", "confidence": 65}
+        }
+    },
+    "UA": {
+        "id": "UA",
+        "name": "Ukraine",
+        "risk_score": 85,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 10.0,
+        "trade_policy_summary": "Wartime economy with focused corridors for grain and iron exports. Heavy Reliance on international support.",
+        "headlines": [
+            {"title": "Black Sea grain corridor throughput remains stable", "source": "UA Trade", "date": "2024-01-16", "category": "Agriculture", "impact": "medium"},
+            {"title": "Tech sector demonstrates strong resilience", "source": "Kyiv Tech", "date": "2024-01-14", "category": "Economy", "impact": "low"},
+            {"title": "Reconstruction contracts attract early investment", "source": "Intl Finance", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 48.3794, "lng": 31.1656},
+        "key_industries": ["Agriculture", "Raw Materials", "Energy"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 80,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 86, "trend": "increasing", "confidence": 65},
+            "6_month": {"score": 82, "trend": "decreasing", "confidence": 55},
+            "12_month": {"score": 75, "trend": "decreasing", "confidence": 42}
+        }
+    },
+    "BE": {
+        "id": "BE",
+        "name": "Belgium",
+        "risk_score": 22,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Logistics and chemical hub for Europe. Open trade environment with world-class ports.",
+        "headlines": [
+            {"title": "Port of Antwerp-Bruges merges digital systems", "source": "Logistics BE", "date": "2024-01-15", "category": "Logistics", "impact": "medium"},
+            {"title": "Chemical sector R&D boosted by new incentives", "source": "Biz Brussels", "date": "2024-01-13", "category": "Pharmaceuticals", "impact": "low"},
+            {"title": "Energy transition strategy updated for 2024", "source": "Belga", "date": "2024-01-10", "category": "Energy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 50.5039, "lng": 4.4699},
+        "key_industries": ["Pharmaceuticals", "Energy", "Automotive"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 96,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 23, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 24, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 25, "trend": "stable", "confidence": 80}
+        }
+    },
+    "PT": {
+        "id": "PT",
+        "name": "Portugal",
+        "risk_score": 32,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Expanding tech hub and renewable energy leader. Strategic gateway to Atlantic trade corridors.",
+        "headlines": [
+            {"title": "Renewable energy production hits 70% of grid", "source": "Público", "date": "2024-01-16", "category": "Energy", "impact": "high"},
+            {"title": "Digital nomad visa scheme boosts services economy", "source": "Lisbon Journal", "date": "2024-01-14", "category": "Investment", "impact": "low"},
+            {"title": "New deep-water port terminal project update", "source": "Trade PT", "date": "2024-01-11", "category": "Logistics", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 39.3999, "lng": -8.2245},
+        "key_industries": ["Energy", "Textiles", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 93,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 33, "trend": "stable", "confidence": 90},
+            "6_month": {"score": 34, "trend": "stable", "confidence": 82},
+            "12_month": {"score": 35, "trend": "stable", "confidence": 75}
+        }
+    },
+    "PH": {
+        "id": "PH",
+        "name": "Philippines",
+        "risk_score": 58,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 18.5,
+        "trade_policy_summary": "Rising electronics manufacturing as part of China+1. Large services sector and strategic Pacific location.",
+        "headlines": [
+            {"title": "Semiconductor assembly exports increase by 12%", "source": "Manila Times", "date": "2024-01-16", "category": "Industry", "impact": "high"},
+            {"title": "Infrastructure spending focused on ports and rail", "source": "PhilStar", "date": "2024-01-14", "category": "Logistics", "impact": "medium"},
+            {"title": "New trade pact proposed with EU", "source": "BusinessWorld", "date": "2024-01-12", "category": "Agreement", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 12.8797, "lng": 121.7740},
+        "key_industries": ["Electronics", "Agriculture", "Semiconductors"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 82,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 57, "trend": "stable", "confidence": 78},
+            "6_month": {"score": 55, "trend": "decreasing", "confidence": 68},
+            "12_month": {"score": 52, "trend": "stable", "confidence": 58}
+        }
+    },
+    "DE": {
+        "id": "DE",
+        "name": "Germany",
+        "risk_score": 25,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Europe's largest economy, strong manufacturing and export base. High regulatory stability and advanced infrastructure.",
+        "headlines": [
+            {"title": "Germany updates export control list for high-end manufacturing technology", "source": "Handelsblatt", "date": "2024-12-05", "category": "Export Control", "impact": "medium"},
+            {"title": "Industrial production sees recovery as energy prices stabilize", "source": "DW Business", "date": "2024-03-22", "category": "Energy", "impact": "medium"},
+            {"title": "New EU-wide trade restrictions supported by German cabinet", "source": "Spiegel", "date": "2024-11-15", "category": "Policy", "impact": "high"}
+        ],
+        "coordinates": {"lat": 51.1657, "lng": 10.4515},
+        "key_industries": ["Automotive", "Electronics", "Pharmaceuticals"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 95,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 26, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 27, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 28, "trend": "stable", "confidence": 80}
+        }
+    },
+    "PK": {
+        "id": "PK",
+        "name": "Pakistan",
+        "risk_score": 82,
+        "risk_level": "High",
+        "risk_trend": "increasing",
+        "tariff_percentage": 25.0,
+        "trade_policy_summary": "Economic instability and high inflation affects trade flows. Large textile sector remains the primary export engine.",
+        "headlines": [
+            {"title": "Textile exports target new high-end markets", "source": "Dawn Business", "date": "2024-01-15", "category": "Textiles", "impact": "medium"},
+            {"title": "IMF review mission arrives for talks", "source": "Express Tribune", "date": "2024-01-13", "category": "Economy", "impact": "high"},
+            {"title": "New tech policy aims to boost software exports", "source": "Profit", "date": "2024-01-11", "category": "Policy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 30.3753, "lng": 69.3451},
+        "key_industries": ["Textiles", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 45,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 84, "trend": "increasing", "confidence": 72},
+            "6_month": {"score": 86, "trend": "increasing", "confidence": 62},
+            "12_month": {"score": 80, "trend": "stable", "confidence": 52}
+        }
+    },
+    "BD": {
+        "id": "BD",
+        "name": "Bangladesh",
+        "risk_score": 68,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 14.0,
+        "trade_policy_summary": "Second largest global garment exporter. Improving infrastructure but challenges in energy supply persist.",
+        "headlines": [
+            {"title": "RMG exports show growth despite global headwinds", "source": "Daily Star", "date": "2024-01-16", "category": "Textiles", "impact": "medium"},
+            {"title": "New economic zones attract Japanese investment", "source": "Financial Express", "date": "2024-01-14", "category": "Investment", "impact": "medium"},
+            {"title": "Port capacity expansion at Chittagong updated", "source": "Maritime BD", "date": "2024-01-11", "category": "Logistics", "impact": "low"}
+        ],
+        "coordinates": {"lat": 23.6850, "lng": 90.3563},
+        "key_industries": ["Textiles", "Pharmaceuticals", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 65,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 69, "trend": "stable", "confidence": 75},
+            "6_month": {"score": 70, "trend": "stable", "confidence": 65},
+            "12_month": {"score": 65, "trend": "decreasing", "confidence": 55}
+        }
+    },
+    "IL": {
+        "id": "IL",
+        "name": "Israel",
+        "risk_score": 52,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 6.0,
+        "trade_policy_summary": "High-tech economy with strong focus on cybersecurity and medical tech. Geopolitical situation remains a key risk factor.",
+        "headlines": [
+            {"title": "Cybersecurity exports reach new annual peak", "source": "Globes", "date": "2024-01-15", "category": "Electronics", "impact": "medium"},
+            {"title": "Tech funding remains resilient in Q1", "source": "Calcalist", "date": "2024-01-13", "category": "Investment", "impact": "low"},
+            {"title": "New gas export pipelines discussed with Cyprus", "source": "Times of Israel", "date": "2024-01-10", "category": "Energy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 31.0461, "lng": 34.8516},
+        "key_industries": ["Electronics", "Pharmaceuticals", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 90,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 54, "trend": "increasing", "confidence": 78},
+            "6_month": {"score": 50, "trend": "decreasing", "confidence": 68},
+            "12_month": {"score": 45, "trend": "stable", "confidence": 55}
+        }
+    },
+    "NZ": {
+        "id": "NZ",
+        "name": "New Zealand",
+        "risk_score": 15,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 4.5,
+        "trade_policy_summary": "Stable agricultural exporter with world-leading food safety standards. Reliable and open trade partner.",
+        "headlines": [
+            {"title": "Dairy exports reach record values in Asian markets", "source": "NZ Herald", "date": "2024-01-16", "category": "Agriculture", "impact": "medium"},
+            {"title": "New FTA with UK enters second year with growth", "source": "Radio NZ", "date": "2024-01-14", "category": "Agreement", "impact": "low"},
+            {"title": "Agri-tech innovation sector receives state funding", "source": "Otago Times", "date": "2024-01-11", "category": "Policy", "impact": "low"}
+        ],
+        "coordinates": {"lat": -40.9006, "lng": 174.8860},
+        "key_industries": ["Agriculture", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 98,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 15, "trend": "stable", "confidence": 99},
+            "6_month": {"score": 16, "trend": "stable", "confidence": 95},
+            "12_month": {"score": 16, "trend": "stable", "confidence": 88}
+        }
+    },
+    "CL": {
+        "id": "CL",
+        "name": "Chile",
+        "risk_score": 38,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 10.0,
+        "trade_policy_summary": "World's largest copper producer. Stable legal framework in Latin America and committed to free trade.",
+        "headlines": [
+            {"title": "Lithium state policy review progresses with industry", "source": "La Tercera", "date": "2024-01-16", "category": "Raw Materials", "impact": "high"},
+            {"title": "Copper exports target high demand from green energy", "source": "Mining Chile", "date": "2024-01-14", "category": "Economy", "impact": "medium"},
+            {"title": "New trade agreements with SE Asia explored", "source": "EMOL", "date": "2024-01-12", "category": "Agreement", "impact": "low"}
+        ],
+        "coordinates": {"lat": -35.6751, "lng": -71.5430},
+        "key_industries": ["Raw Materials", "Agriculture", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 88,
+        "alternative_to": ["RU", "CN"],
+        "ai_forecast": {
+            "3_month": {"score": 39, "trend": "stable", "confidence": 90},
+            "6_month": {"score": 37, "trend": "stable", "confidence": 82},
+            "12_month": {"score": 35, "trend": "stable", "confidence": 72}
+        }
+    },
+    "CO": {
+        "id": "CO",
+        "name": "Colombia",
+        "risk_score": 60,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 15.0,
+        "trade_policy_summary": "Major exporter of oil, coal, and coffee. Infrastructure challenges and political transitions affect trade predictability.",
+        "headlines": [
+            {"title": "Coffee exports stabilize despite climate challenges", "source": "El Tiempo", "date": "2024-01-15", "category": "Agriculture", "impact": "medium"},
+            {"title": "New renewable energy projects announced", "source": "Portafolio", "date": "2024-01-13", "category": "Energy", "impact": "low"},
+            {"title": "Infrastructure upgrades boost Pacific port capacity", "source": "Trade CO", "date": "2024-01-10", "category": "Logistics", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 4.5709, "lng": -74.2973},
+        "key_industries": ["Energy", "Raw Materials", "Agriculture"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 75,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 61, "trend": "stable", "confidence": 80},
+            "6_month": {"score": 62, "trend": "stable", "confidence": 70},
+            "12_month": {"score": 58, "trend": "decreasing", "confidence": 60}
+        }
+    },
+    "PE": {
+        "id": "PE",
+        "name": "Peru",
+        "risk_score": 55,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 12.0,
+        "trade_policy_summary": "Major global supplier of copper and silver. Political instability is the primary bottleneck for trade potential.",
+        "headlines": [
+            {"title": "Mining production grows as project strikes resolve", "source": "Gestion", "date": "2024-01-16", "category": "Raw Materials", "impact": "high"},
+            {"title": "Agricultural exports hit record value in 2023", "source": "El Comercio", "date": "2024-01-14", "category": "Agriculture", "impact": "medium"},
+            {"title": "New port mega-project in Chancay update", "source": "Andina", "date": "2024-01-11", "category": "Logistics", "impact": "high"}
+        ],
+        "coordinates": {"lat": -9.1900, "lng": -75.0152},
+        "key_industries": ["Raw Materials", "Agriculture"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 70,
+        "alternative_to": ["RU", "CN"],
+        "ai_forecast": {
+            "3_month": {"score": 56, "trend": "stable", "confidence": 78},
+            "6_month": {"score": 57, "trend": "stable", "confidence": 68},
+            "12_month": {"score": 52, "trend": "stable", "confidence": 55}
+        }
+    },
+    "NG": {
+        "id": "NG",
+        "name": "Nigeria",
+        "risk_score": 78,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 25.0,
+        "trade_policy_summary": "Africa's largest economy. Heavily reliant on oil exports. Diversification efforts ongoing but challenged by currency volatility.",
+        "headlines": [
+            {"title": "New refinery startup aims to boost local supply", "source": "BusinessDay", "date": "2024-01-16", "category": "Energy", "impact": "high"},
+            {"title": "Currency reforms aim to attract foreign investment", "source": "Channels TV", "date": "2024-01-14", "category": "Economy", "impact": "medium"},
+            {"title": "Tech ecosystem grows as digital exports climb", "source": "TechCity", "date": "2024-01-11", "category": "Economy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 9.0820, "lng": 8.6753},
+        "key_industries": ["Energy", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 55,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 80, "trend": "increasing", "confidence": 75},
+            "6_month": {"score": 75, "trend": "decreasing", "confidence": 65},
+            "12_month": {"score": 70, "trend": "stable", "confidence": 52}
+        }
+    },
+    "EG": {
+        "id": "EG",
+        "name": "Egypt",
+        "risk_score": 65,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 22.0,
+        "trade_policy_summary": "Strategic control of Suez Canal. Economic reforms focusing on attracting manufacturing and logistics investment.",
+        "headlines": [
+            {"title": "Suez Canal revenue records reported for 2023", "source": "Al-Ahram", "date": "2024-01-15", "category": "Logistics", "impact": "medium"},
+            {"title": "New green hydrogen hub in Suez Zone update", "source": "Daily News Egypt", "date": "2024-01-13", "category": "Energy", "impact": "low"},
+            {"title": "Structural reforms discussed with international lenders", "source": "Egypt Today", "date": "2024-01-11", "category": "Economy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 26.8206, "lng": 30.8025},
+        "key_industries": ["Energy", "Textiles", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 60,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 67, "trend": "stable", "confidence": 80},
+            "6_month": {"score": 63, "trend": "decreasing", "confidence": 70},
+            "12_month": {"score": 60, "trend": "stable", "confidence": 60}
+        }
+    },
+    "KE": {
+        "id": "KE",
+        "name": "Kenya",
+        "risk_score": 55,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 20.0,
+        "trade_policy_summary": "East Africa's economic hub. World leader in tech innovation (M-Pesa) and major tea and flower exporter.",
+        "headlines": [
+            {"title": "Tea exports to emerging markets show growth", "source": "The Star", "date": "2024-01-16", "category": "Agriculture", "impact": "low"},
+            {"title": "Mombasa port expansion boosts regional trade", "source": "Standard", "date": "2024-01-14", "category": "Logistics", "impact": "medium"},
+            {"title": "New energy transition strategy focused on geothermal", "source": "BBC Africa", "date": "2024-01-11", "category": "Energy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -1.2864, "lng": 36.8219},
+        "key_industries": ["Agriculture", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 80,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 56, "trend": "stable", "confidence": 85},
+            "6_month": {"score": 54, "trend": "stable", "confidence": 78},
+            "12_month": {"score": 52, "trend": "stable", "confidence": 70}
+        }
+    },
+    "MA": {
+        "id": "MA",
+        "name": "Morocco",
+        "risk_score": 45,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 15.0,
+        "trade_policy_summary": "Strategic link between Africa and Europe. Strong automotive and energy base, particularly in phosphate and solar.",
+        "headlines": [
+            {"title": "Automotive exports become primary trade driver", "source": "Morocco World News", "date": "2024-01-16", "category": "Automotive", "impact": "high"},
+            {"title": "World's largest solar plant capacity expanded", "source": "Hespress", "date": "2024-01-14", "category": "Energy", "impact": "medium"},
+            {"title": "New trade agreements with EU finalized", "source": "Daily Morocco", "date": "2024-01-12", "category": "Agreement", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 31.7917, "lng": -7.0926},
+        "key_industries": ["Automotive", "Energy", "Raw Materials", "Agriculture"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 85,
+        "alternative_to": ["RU", "CN"],
+        "ai_forecast": {
+            "3_month": {"score": 46, "trend": "stable", "confidence": 88},
+            "6_month": {"score": 44, "trend": "stable", "confidence": 80},
+            "12_month": {"score": 42, "trend": "stable", "confidence": 72}
+        }
+    },
+    "FI": {
+        "id": "FI",
+        "name": "Finland",
+        "risk_score": 15,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Highly stable Nordic economy with emphasis on technology, forestry, and high-tech manufacturing. NATO membership stabilizing regional risk.",
+        "headlines": [
+            {"title": "Finland joins NATO-led secure supply chain initiatives", "source": "Helsinki Times", "date": "2024-03-15", "category": "Policy", "impact": "medium"},
+            {"title": "Technology sector sees surge in FDI following security upgrades", "source": "Finnish Biz", "date": "2024-11-20", "category": "Investment", "impact": "low"}
+        ],
+        "coordinates": {"lat": 61.9241, "lng": 25.7482},
+        "key_industries": ["Electronics", "Raw Materials", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 98,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 16, "trend": "stable", "confidence": 99},
+            "6_month": {"score": 16, "trend": "stable", "confidence": 95},
+            "12_month": {"score": 16, "trend": "stable", "confidence": 88}
+        }
+    },
+    "DK": {
+        "id": "DK",
+        "name": "Denmark",
+        "risk_score": 14,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Leading green energy hub with exceptional political stability and highly skilled workforce. Strong logistics through Oresund Bridge.",
+        "headlines": [
+            {"title": "Denmark implements new maritime trade security protocols", "source": "Copenhagen Post", "date": "2024-04-12", "category": "Regulation", "impact": "medium"},
+            {"title": "Green energy partnerships expanded with EU and North Sea neighbors", "source": "Danish Trade Daily", "date": "2024-12-05", "category": "Agreement", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 56.2639, "lng": 9.5018},
+        "key_industries": ["Pharmaceuticals", "Energy", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 99,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 14, "trend": "stable", "confidence": 99},
+            "6_month": {"score": 15, "trend": "stable", "confidence": 95},
+            "12_month": {"score": 15, "trend": "stable", "confidence": 90}
+        }
+    },
+    "AT": {
+        "id": "AT",
+        "name": "Austria",
+        "risk_score": 18,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 6.5,
+        "trade_policy_summary": "Diverse manufacturing and services economy. Central European hub with high logistics performance and legal stability.",
+        "headlines": [
+            {"title": "Austria aligns with EU modernized dual-use export control regime", "source": "Die Presse", "date": "2025-09-22", "category": "Regulation", "impact": "medium"},
+            {"title": "Industrial machinery exports to Central Europe grow 12%", "source": "Austrian Biz", "date": "2024-11-15", "category": "Industry", "impact": "low"}
+        ],
+        "coordinates": {"lat": 47.5162, "lng": 14.5501},
+        "key_industries": ["Electronics", "Automotive", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 97,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 19, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 19, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 20, "trend": "stable", "confidence": 85}
+        }
+    },
+    "GR": {
+        "id": "GR",
+        "name": "Greece",
+        "risk_score": 48,
+        "risk_level": "Medium",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 9.0,
+        "trade_policy_summary": "Major logistics and shipping hub. Improving fiscal position and high strategic importance in Eastern Mediterranean.",
+        "headlines": [
+            {"title": "Port of Piraeus throughput reaches record high", "source": "Kathimerini", "date": "2024-01-15", "category": "Logistics", "impact": "medium"},
+            {"title": "Tourism and energy sector investments surge", "source": "Greece News", "date": "2024-01-13", "category": "Investment", "impact": "medium"},
+            {"title": "Digital state reform project shows early result", "source": "ERT", "date": "2024-01-10", "category": "Policy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 39.0742, "lng": 21.8243},
+        "key_industries": ["Energy", "Agriculture", "Raw Materials"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 88,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 46, "trend": "decreasing", "confidence": 85},
+            "6_month": {"score": 44, "trend": "decreasing", "confidence": 75},
+            "12_month": {"score": 40, "trend": "stable", "confidence": 65}
+        }
+    },
+    "CZ": {
+        "id": "CZ",
+        "name": "Czechia",
+        "risk_score": 28,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 7.0,
+        "trade_policy_summary": "Highly industrialized economy, key player in European automotive and electronics supply chains. Very stable regulatory environment.",
+        "headlines": [
+            {"title": "Automotive exports drive trade surplus", "source": "Prague Post", "date": "2024-01-16", "category": "Automotive", "impact": "medium"},
+            {"title": "Tech and AI startup scene expands in Brno", "source": "CZ Radio", "date": "2024-01-14", "category": "Industry", "impact": "low"},
+            {"title": "New solar energy projects announced for industry", "source": "Energy CZ", "date": "2024-01-11", "category": "Energy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 49.8175, "lng": 15.4730},
+        "key_industries": ["Automotive", "Electronics", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 95,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 28, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 27, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 26, "trend": "decreasing", "confidence": 80}
+        }
+    },
+    "RO": {
+        "id": "RO",
+        "name": "Romania",
+        "risk_score": 52,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.5,
+        "trade_policy_summary": "Strong growth hub for software and automotive parts in SE Europe. Strategic location for Near-shoring within the EU.",
+        "headlines": [
+            {"title": "IT sector records highest growth in five years", "source": "Digi24", "date": "2024-01-16", "category": "Technology", "impact": "medium"},
+            {"title": "Automotive manufacturing exports to EU surge", "source": "Economica", "date": "2024-01-14", "category": "Automotive", "impact": "medium"},
+            {"title": "Offshore gas projects in Black Sea progress", "source": "Adevarul", "date": "2024-01-12", "category": "Energy", "impact": "high"}
+        ],
+        "coordinates": {"lat": 45.9432, "lng": 24.9668},
+        "key_industries": ["Automotive", "Electronics", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 85,
+        "alternative_to": ["CN", "RU"],
+        "ai_forecast": {
+            "3_month": {"score": 53, "trend": "stable", "confidence": 82},
+            "6_month": {"score": 50, "trend": "decreasing", "confidence": 72},
+            "12_month": {"score": 45, "trend": "decreasing", "confidence": 60}
+        }
+    },
+    "KZ": {
+        "id": "KZ",
+        "name": "Kazakhstan",
+        "risk_score": 65,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 11.0,
+        "trade_policy_summary": "Central Asia's energy giant. Pivoting trade links while balancing regional powers. Major exporter of oil and uranium.",
+        "headlines": [
+            {"title": "Oil exports via Trans-Caspian route reaching new high", "source": "Astana Times", "date": "2024-01-16", "category": "Energy", "impact": "high"},
+            {"title": "Uranium production hits record levels for global supply", "source": "Kazinform", "date": "2024-01-14", "category": "Raw Materials", "impact": "medium"},
+            {"title": "New logistics hub development announced", "source": "Trade KZ", "date": "2024-01-11", "category": "Logistics", "impact": "low"}
+        ],
+        "coordinates": {"lat": 48.0196, "lng": 66.9237},
+        "key_industries": ["Energy", "Raw Materials", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 60,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 66, "trend": "stable", "confidence": 78},
+            "6_month": {"score": 67, "trend": "increasing", "confidence": 68},
+            "12_month": {"score": 60, "trend": "decreasing", "confidence": 55}
+        }
+    },
+    "LK": {
+        "id": "LK",
+        "name": "Sri Lanka",
+        "risk_score": 72,
+        "risk_level": "High",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 22.0,
+        "trade_policy_summary": "Recovering economy with strong focus on textile exports and agricultural commodities. Debt restructuring remains critical.",
+        "headlines": [
+            {"title": "Tea exports show recovery in early 2024", "source": "Ceylon Today", "date": "2024-01-16", "category": "Agriculture", "impact": "medium"},
+            {"title": "Garment industries pivot to high-end fashion markets", "source": "Daily FT", "date": "2024-01-14", "category": "Textiles", "impact": "low"},
+            {"title": "IMF review shows positive progress on reforms", "source": "Reuters SL", "date": "2024-01-12", "category": "Economy", "impact": "high"}
+        ],
+        "coordinates": {"lat": 7.8731, "lng": 80.7718},
+        "key_industries": ["Textiles", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 65,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 70, "trend": "decreasing", "confidence": 75},
+            "6_month": {"score": 65, "trend": "decreasing", "confidence": 65},
+            "12_month": {"score": 58, "trend": "stable", "confidence": 50}
+        }
+    },
+    "KH": {
+        "id": "KH",
+        "name": "Cambodia",
+        "risk_score": 64,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 14.5,
+        "trade_policy_summary": "Key garment and footwear exporter. Deepening integration into regional SE Asian supply chains.",
+        "headlines": [
+            {"title": "Cambodia-US Reciprocal Trade Pact signed to eliminate tariffs", "source": "Phnom Penh Post", "date": "2025-10-15", "category": "Agreement", "impact": "high"},
+            {"title": "Cambodia agrees to align with US dual-use export controls", "source": "Trade News Asia", "date": "2025-10-20", "category": "Policy", "impact": "medium"},
+            {"title": "Textile exports surge as manufacturing diversifies across SE Asia", "source": "Khmer Times", "date": "2024-11-12", "category": "Industry", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 12.5657, "lng": 104.9910},
+        "key_industries": ["Textiles", "Agriculture"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 75,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 65, "trend": "stable", "confidence": 78},
+            "6_month": {"score": 63, "trend": "decreasing", "confidence": 68},
+            "12_month": {"score": 58, "trend": "stable", "confidence": 55}
+        }
+    },
+    "MN": {
+        "id": "MN",
+        "name": "Mongolia",
+        "risk_score": 58,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 12.0,
+        "trade_policy_summary": "Resource-rich economy dependent on mining exports to China. High strategic significance for copper and coal.",
+        "headlines": [
+            {"title": "Copper exports reach record volumes", "source": "Montsame", "date": "2024-01-16", "category": "Raw Materials", "impact": "high"},
+            {"title": "New dry port logistics hub project update", "source": "Mongolia Biz", "date": "2024-01-14", "category": "Logistics", "impact": "low"},
+            {"title": "Mining law updates reviewed for better investment", "source": "News MN", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 46.8625, "lng": 103.8467},
+        "key_industries": ["Raw Materials", "Agriculture"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 72,
+        "alternative_to": ["RU", "CN"],
+        "ai_forecast": {
+            "3_month": {"score": 59, "trend": "stable", "confidence": 80},
+            "6_month": {"score": 57, "trend": "stable", "confidence": 70},
+            "12_month": {"score": 52, "trend": "stable", "confidence": 58}
+        }
+    },
+    "PA": {
+        "id": "PA",
+        "name": "Panama",
+        "risk_score": 35,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 9.5,
+        "trade_policy_summary": "Critical global trade artery via the Panama Canal. Stable banking and dollarized economy.",
+        "headlines": [
+            {"title": "Canal water management projects show initial success", "source": "La Prensa", "date": "2024-01-16", "category": "Logistics", "impact": "high"},
+            {"title": "Banking sector stability confirmed in early 2024", "source": "Panama Biz", "date": "2024-01-14", "category": "Finance", "impact": "low"},
+            {"title": "New free trade zone incentives for tech hub", "source": "News PA", "date": "2024-01-11", "category": "Investment", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 8.5380, "lng": -80.7821},
+        "key_industries": ["Logistics", "Finance", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 90,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 36, "trend": "stable", "confidence": 92},
+            "6_month": {"score": 37, "trend": "stable", "confidence": 85},
+            "12_month": {"score": 35, "trend": "decreasing", "confidence": 75}
+        }
+    },
+    "CR": {
+        "id": "CR",
+        "name": "Costa Rica",
+        "risk_score": 28,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Highly stable Central American democracy. Hub for high-tech medical device manufacturing and sustainable trade.",
+        "headlines": [
+            {"title": "Medical device exports become primary trade driver", "source": "La Nacion", "date": "2024-01-15", "category": "Pharmaceuticals", "impact": "high"},
+            {"title": "Renewable energy grid stability attracts tech hubs", "source": "Biz Costa Rica", "date": "2024-01-13", "category": "Energy", "impact": "medium"},
+            {"title": "Agricultural exports pivot to high-end EU markets", "source": "Trade CR", "date": "2024-01-10", "category": "Agriculture", "impact": "low"}
+        ],
+        "coordinates": {"lat": 9.7489, "lng": -83.7534},
+        "key_industries": ["Pharmaceuticals", "Electronics", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 95,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 29, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 28, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 26, "trend": "stable", "confidence": 85}
+        }
+    },
+    "EC": {
+        "id": "EC",
+        "name": "Ecuador",
+        "risk_score": 68,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 18.0,
+        "trade_policy_summary": "Oil and agricultural exporter. Security challenges in early 2024 are the primary factor affecting trade confidence.",
+        "headlines": [
+            {"title": "Shrimp exports maintain global market lead", "source": "El Universo", "date": "2024-01-16", "category": "Agriculture", "impact": "medium"},
+            {"title": "New energy project financing secured", "source": "Quito Biz", "date": "2024-01-14", "category": "Energy", "impact": "low"},
+            {"title": "Trade corridor security enhanced for exports", "source": "Defense EC", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -1.8312, "lng": -78.1834},
+        "key_industries": ["Energy", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 70,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 70, "trend": "increasing", "confidence": 75},
+            "6_month": {"score": 65, "trend": "decreasing", "confidence": 65},
+            "12_month": {"score": 60, "trend": "stable", "confidence": 50}
+        }
+    },
+    "UY": {
+        "id": "UY",
+        "name": "Uruguay",
+        "risk_score": 22,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 9.0,
+        "trade_policy_summary": "Consistently stable and high-income Latin American economy. Leading exporter of agricultural goods and software services.",
+        "headlines": [
+            {"title": "Software exports hit new record in 2023", "source": "El Pais UY", "date": "2024-01-16", "category": "Technology", "impact": "low"},
+            {"title": "New paper mill project ramps up production", "source": "Nordic UY", "date": "2024-01-14", "category": "Industry", "impact": "medium"},
+            {"title": "Renewable energy production exceeds targets", "source": "Trade UY", "date": "2024-01-11", "category": "Energy", "impact": "low"}
+        ],
+        "coordinates": {"lat": -32.5228, "lng": -55.7658},
+        "key_industries": ["Agriculture", "Electronics", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 96,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 22, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 23, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 24, "trend": "stable", "confidence": 85}
+        }
+    },
+    "GH": {
+        "id": "GH",
+        "name": "Ghana",
+        "risk_score": 62,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 15.0,
+        "trade_policy_summary": "One of West Africa's most stable democracies. Major gold and cocoa exporter undergoing fiscal adjustment.",
+        "headlines": [
+            {"title": "Ghana signs major trade facilitation agreement with EU", "source": "Ghana News Agency", "date": "2024-03-20", "category": "Agreement", "impact": "medium"},
+            {"title": "Gold and cocoa exports hit record revenues in 2024", "source": "Business Ghana", "date": "2024-12-11", "category": "Agriculture", "impact": "medium"},
+            {"title": "New digital trade platform launched to streamline customs", "source": "Policy GH", "date": "2024-11-05", "category": "Regulation", "impact": "low"}
+        ],
+        "coordinates": {"lat": 7.9465, "lng": -1.0232},
+        "key_industries": ["Raw Materials", "Agriculture", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 80,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 63, "trend": "stable", "confidence": 82},
+            "6_month": {"score": 60, "trend": "decreasing", "confidence": 72},
+            "12_month": {"score": 55, "trend": "decreasing", "confidence": 60}
+        }
+    },
+    "ET": {
+        "id": "ET",
+        "name": "Ethiopia",
+        "risk_score": 75,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 18.0,
+        "trade_policy_summary": "Rising manufacturing hub in East Africa. Balancing rapid development with geopolitical stability and currency challenges.",
+        "headlines": [
+            {"title": "Industrial parks report consistent textile output", "source": "Addis Fortune", "date": "2024-01-15", "category": "Textiles", "impact": "medium"},
+            {"title": "New trade corridors planned with Djibouti", "source": "Biz Ethiopia", "date": "2024-01-13", "category": "Logistics", "impact": "high"},
+            {"title": "Telecom sector liberalisation enters new phase", "source": "BBC Africa", "date": "2024-01-11", "category": "Policy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 9.1450, "lng": 40.4897},
+        "key_industries": ["Textiles", "Agriculture", "Energy"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 65,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 76, "trend": "stable", "confidence": 75},
+            "6_month": {"score": 78, "trend": "increasing", "confidence": 65},
+            "12_month": {"score": 70, "trend": "decreasing", "confidence": 50}
+        }
+    },
+    "QA": {
+        "id": "QA",
+        "name": "Qatar",
+        "risk_score": 30,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Global leader in LNG exports. Highly stable and high-income state with extremely low business risk.",
+        "headlines": [
+            {"title": "North Field expansion projects hit massive production milestone", "source": "Qatar Tribune", "date": "2024-01-15", "category": "Energy", "impact": "high"},
+            {"title": "Qatar signs new long-term LNG supply deal with Germany and UK", "source": "Reuters", "date": "2024-05-12", "category": "Energy", "impact": "high"},
+            {"title": "Non-energy sector grows as Qatar positioning as logistics hub", "source": "Gulf Times", "date": "2024-11-20", "category": "Investment", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 25.3548, "lng": 51.1839},
+        "key_industries": ["Energy", "Pharmaceuticals", "Electronics"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 92,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 31, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 32, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 33, "trend": "stable", "confidence": 85}
+        }
+    },
+    "KW": {
+        "id": "KW",
+        "name": "Kuwait",
+        "risk_score": 38,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Extremely oil-dependent but wealthy and stable. Significant investment in domestic infrastructure and petrochemical sectors.",
+        "headlines": [
+            {"title": "New Al Zour refinery ramp-up boosts global export capacity", "source": "KUNA", "date": "2024-01-16", "category": "Energy", "impact": "medium"},
+            {"title": "Kuwait updates economic diversification roadmap focusing on logistics", "source": "Kuwait Times", "date": "2024-11-14", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 29.3117, "lng": 47.4818},
+        "key_industries": ["Energy", "Pharmaceuticals"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 88,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 39, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 40, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 38, "trend": "stable", "confidence": 80}
+        }
+    },
+    "OM": {
+        "id": "OM",
+        "name": "Oman",
+        "risk_score": 40,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Strategically located at the mouth of the Persian Gulf. Focus on becoming a global logistics and green hydrogen hub.",
+        "headlines": [
+            {"title": "Duqm special economic zone attracts new global firms", "source": "Oman Observer", "date": "2024-01-15", "category": "Investment", "impact": "medium"},
+            {"title": "Green hydrogen projects enter second phase of development", "source": "Muscat Daily", "date": "2024-01-13", "category": "Energy", "impact": "high"},
+            {"title": "Non-oil exports show 8% increase in Q4", "source": "Trade OM", "date": "2024-01-11", "category": "Economy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 21.4735, "lng": 55.9754},
+        "key_industries": ["Energy", "Logistics", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 90,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 41, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 42, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 40, "trend": "stable", "confidence": 80}
+        }
+    },
+    "JO": {
+        "id": "JO",
+        "name": "Jordan",
+        "risk_score": 52,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 10.0,
+        "trade_policy_summary": "Highly stable regional partner with strong focus on pharmaceutical and tech services. Key player in regional energy and water security.",
+        "headlines": [
+            {"title": "Pharma exports reach new MENA markets", "source": "Jordan Times", "date": "2024-01-16", "category": "Pharmaceuticals", "impact": "medium"},
+            {"title": "Tech startup ecosystem sees record early-stage funding", "source": "Amman Biz", "date": "2024-01-14", "category": "Investment", "impact": "low"},
+            {"title": "Strategic trade agreements with US and EU expanded", "source": "Policy JO", "date": "2024-01-12", "category": "Agreement", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 30.5852, "lng": 36.2384},
+        "key_industries": ["Pharmaceuticals", "Electronics", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 85,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 53, "trend": "stable", "confidence": 88},
+            "6_month": {"score": 54, "trend": "stable", "confidence": 80},
+            "12_month": {"score": 52, "trend": "stable", "confidence": 72}
+        }
     }
 }
 
@@ -692,63 +1648,83 @@ COUNTRIES_DATA = {
 POLICY_ALERTS = [
     {
         "id": 1,
-        "title": "New US Export Controls on AI Chips",
+        "title": "US 25% Tariff on Canada and Mexico",
         "country": "US",
-        "category": "Export Control",
+        "category": "Tariff",
         "impact": "High",
-        "date": "2024-01-16",
-        "description": "Expanded restrictions on AI chip exports to certain countries affecting semiconductor supply chains.",
-        "affected_industries": ["Semiconductors", "Electronics", "AI"]
+        "date": "2025-02-10",
+        "description": "Executive order imposes 25% tariffs on most products from Canada and Mexico, with 10% on energy products.",
+        "affected_industries": ["Energy", "Automotive", "Agriculture", "Manufacturing"]
     },
     {
         "id": 2,
-        "title": "China Rare Earth Export Quotas Reduced",
+        "title": "China Dual-Use Export Control List",
         "country": "CN",
-        "category": "Export Restriction",
+        "category": "Policy",
         "impact": "High",
-        "date": "2024-01-15",
-        "description": "New quotas on rare earth exports may affect electronics and EV manufacturing globally.",
-        "affected_industries": ["Electronics", "Automotive", "Energy"]
+        "date": "2024-11-15",
+        "description": "Consolidated list of dual-use items subject to strict export licensing, affecting global high-tech supply chains.",
+        "affected_industries": ["Electronics", "Semiconductors", "Defense"]
     },
     {
         "id": 3,
-        "title": "EU Carbon Border Tax Implementation",
-        "country": "EU",
+        "title": "US 10% Tariff on Chinese Imports",
+        "country": "US",
         "category": "Tariff",
-        "impact": "Medium",
-        "date": "2024-01-14",
-        "description": "New carbon border adjustment mechanism affects imports from high-emission countries.",
-        "affected_industries": ["Raw Materials", "Energy", "Manufacturing"]
+        "impact": "High",
+        "date": "2025-02-15",
+        "description": "Initial 10% tariff on all Chinese imports, with plans to increase to 20% by March 2025.",
+        "affected_industries": ["Electronics", "Consumer Goods", "Manufacturing"]
     },
     {
         "id": 4,
-        "title": "India PLI Scheme Expansion",
-        "country": "IN",
-        "category": "Subsidy",
+        "title": "EU Modernized Export Control Regime",
+        "country": "EU",
+        "category": "Regulation",
         "impact": "Medium",
-        "date": "2024-01-13",
-        "description": "Production-linked incentive scheme expanded to include more electronics categories.",
-        "affected_industries": ["Electronics", "Semiconductors"]
+        "date": "2025-09-20",
+        "description": "EU updates dual-use export control list to enhance coordination and address emerging security technologies.",
+        "affected_industries": ["Technology", "Semiconductors", "AI"]
     },
     {
         "id": 5,
-        "title": "Mexico Nearshoring Tax Incentives",
-        "country": "MX",
-        "category": "Incentive",
-        "impact": "Medium",
-        "date": "2024-01-12",
-        "description": "New tax benefits for companies relocating manufacturing from Asia to Mexico.",
-        "affected_industries": ["Automotive", "Electronics", "Textiles"]
+        "title": "US 50% Tariff on India and Brazil",
+        "country": "US",
+        "category": "Tariff",
+        "impact": "High",
+        "date": "2025-07-14",
+        "description": "New tariff schedule imposes 50% rates on major imports from India and Brazil due to trade disputes.",
+        "affected_industries": ["Agriculture", "Pharmaceuticals", "Raw Materials"]
     },
     {
         "id": 6,
-        "title": "Japan Semiconductor Equipment Export Rules",
-        "country": "JP",
-        "category": "Export Control",
+        "title": "Canada 25% Steel Surtax",
+        "country": "CA",
+        "category": "Tariff",
         "impact": "High",
-        "date": "2024-01-11",
-        "description": "Updated export controls on advanced semiconductor manufacturing equipment.",
-        "affected_industries": ["Semiconductors"]
+        "date": "2025-12-05",
+        "description": "Canada implements a 25% surtax on steel derivative goods in response to global trade volatility.",
+        "affected_industries": ["Construction", "Automotive", "Infrastructure"]
+    },
+    {
+        "id": 7,
+        "title": "Cambodia-US Reciprocal Trade Pact",
+        "country": "KH",
+        "category": "Agreement",
+        "impact": "Medium",
+        "date": "2025-10-15",
+        "description": "Cambodia eliminates tariffs on US goods and aligns with US export controls under new agreement.",
+        "affected_industries": ["Agriculture", "Electronics", "Policy"]
+    },
+    {
+        "id": 8,
+        "title": "India Joins US Secure Tech Initiative",
+        "country": "IN",
+        "category": "Policy",
+        "impact": "Medium",
+        "date": "2024-01-18",
+        "description": "India joins US-led initiative to secure technology supply chains and enhance regional stability.",
+        "affected_industries": ["Semiconductors", "Communications", "Electronics"]
     }
 ]
 
