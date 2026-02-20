@@ -1601,45 +1601,343 @@ COUNTRIES_DATA = {
         "risk_level": "Low",
         "risk_trend": "stable",
         "tariff_percentage": 5.0,
-        "trade_policy_summary": "Strategically located at the mouth of the Persian Gulf. Focus on becoming a global logistics and green hydrogen hub.",
+        "trade_policy_summary": "Strategic location on the Arabian Peninsula. Growing focus on green hydrogen and logistics infrastructure. Reliable trade partner with stable regulatory environment.",
         "headlines": [
-            {"title": "Duqm special economic zone attracts new global firms", "source": "Oman Observer", "date": "2024-01-15", "category": "Investment", "impact": "medium"},
-            {"title": "Green hydrogen projects enter second phase of development", "source": "Muscat Daily", "date": "2024-01-13", "category": "Energy", "impact": "high"},
-            {"title": "Non-oil exports show 8% increase in Q4", "source": "Trade OM", "date": "2024-01-11", "category": "Economy", "impact": "low"}
+            {"title": "Oman Hydrogen summit attracts global investment", "source": "Oman Observer", "date": "2024-01-16", "category": "Energy", "impact": "medium"},
+            {"title": "Duqm port capacity expansion update", "source": "Logistics Middle East", "date": "2024-01-14", "category": "Logistics", "impact": "low"},
+            {"title": "New tax incentives for non-oil exports implemented", "source": "Times of Oman", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
         ],
         "coordinates": {"lat": 21.4735, "lng": 55.9754},
-        "key_industries": ["Energy", "Logistics", "Agriculture"],
+        "key_industries": ["Energy", "Raw Materials", "Logistics"],
         "supply_chain_risk": "Low",
-        "friend_shore_score": 90,
+        "friend_shore_score": 88,
         "alternative_to": ["RU"],
         "ai_forecast": {
-            "3_month": {"score": 41, "trend": "stable", "confidence": 95},
-            "6_month": {"score": 42, "trend": "stable", "confidence": 88},
-            "12_month": {"score": 40, "trend": "stable", "confidence": 80}
+            "3_month": {"score": 41, "trend": "stable", "confidence": 90},
+            "6_month": {"score": 40, "trend": "stable", "confidence": 85},
+            "12_month": {"score": 38, "trend": "decreasing", "confidence": 75}
+        }
+    },
+    "IE": {
+        "id": "IE",
+        "name": "Ireland",
+        "risk_score": 22,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Stable EU member, key hub for tech and pharma. Strong regulatory environment and highly skilled workforce. Predictable trade policies.",
+        "headlines": [
+            {"title": "Irish tech exports reach record highs in 2024", "source": "RTE", "date": "2024-05-15", "category": "Technology", "impact": "low"},
+            {"title": "New pharma R&D hub announced for Cork", "source": "Irish Times", "date": "2024-11-10", "category": "Pharmaceuticals", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 53.4129, "lng": -8.2439},
+        "key_industries": ["Pharmaceuticals", "Electronics", "Technology"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 96,
+        "alternative_to": ["US", "GB"],
+        "ai_forecast": {
+            "3_month": {"score": 23, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 24, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 22, "trend": "stable", "confidence": 80}
+        }
+    },
+    "IS": {
+        "id": "IS",
+        "name": "Iceland",
+        "risk_score": 15,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Stable Nordic economy with heavy focus on energy and fisheries. Low risk due to isolation and strong democratic institutions.",
+        "headlines": [
+            {"title": "Geothermal energy exports powering new data centers", "source": "Iceland Monitor", "date": "2024-03-22", "category": "Energy", "impact": "medium"},
+            {"title": "Fishery exports to EU show growth", "source": "Reykjavik Grapevine", "date": "2024-08-14", "category": "Agriculture", "impact": "low"}
+        ],
+        "coordinates": {"lat": 64.9631, "lng": -19.0208},
+        "key_industries": ["Energy", "Agriculture", "Technology"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 98,
+        "alternative_to": ["NO"],
+        "ai_forecast": {
+            "3_month": {"score": 15, "trend": "stable", "confidence": 99},
+            "6_month": {"score": 16, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 16, "trend": "stable", "confidence": 85}
+        }
+    },
+    "BO": {
+        "id": "BO",
+        "name": "Bolivia",
+        "risk_score": 68,
+        "risk_level": "High",
+        "risk_trend": "stable",
+        "tariff_percentage": 15.0,
+        "trade_policy_summary": "Rich in natural resources, especially lithium. Political uncertainty and regulatory shifts affect foreign investment confidence.",
+        "headlines": [
+            {"title": "Lithium state enterprise seeks new international partners", "source": "El Deber", "date": "2024-06-12", "category": "Raw Materials", "impact": "high"},
+            {"title": "New natural gas supply agreements discussed with neighbors", "source": "La Razón", "date": "2024-10-05", "category": "Energy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -16.2902, "lng": -63.5887},
+        "key_industries": ["Raw Materials", "Energy", "Agriculture"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 55,
+        "alternative_to": ["CN", "RU"],
+        "ai_forecast": {
+            "3_month": {"score": 70, "trend": "increasing", "confidence": 75},
+            "6_month": {"score": 65, "trend": "decreasing", "confidence": 65},
+            "12_month": {"score": 62, "trend": "stable", "confidence": 50}
+        }
+    },
+    "PY": {
+        "id": "PY",
+        "name": "Paraguay",
+        "risk_score": 48,
+        "risk_level": "Medium",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 10.0,
+        "trade_policy_summary": "Stable agricultural exporter, focus on soy and beef. Low electricity costs attracting industrial manufacturing investment.",
+        "headlines": [
+            {"title": "Energy-intensive manufacturing growth surges", "source": "ABC Color", "date": "2024-04-18", "category": "Investment", "impact": "medium"},
+            {"title": "Agricultural exports reach record volumes in Q3", "source": "Última Hora", "date": "2024-09-22", "category": "Agriculture", "impact": "low"}
+        ],
+        "coordinates": {"lat": -23.4425, "lng": -58.4438},
+        "key_industries": ["Agriculture", "Energy", "Textiles"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 85,
+        "alternative_to": ["BR", "AR"],
+        "ai_forecast": {
+            "3_month": {"score": 46, "trend": "decreasing", "confidence": 85},
+            "6_month": {"score": 44, "trend": "decreasing", "confidence": 75},
+            "12_month": {"score": 42, "trend": "stable", "confidence": 65}
+        }
+    },
+    "DZ": {
+        "id": "DZ",
+        "name": "Algeria",
+        "risk_score": 62,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 20.0,
+        "trade_policy_summary": "Major energy producer, especially natural gas for Europe. Economic diversification goals remain a long-term challenge.",
+        "headlines": [
+            {"title": "New gas pipelines to EU reach full capacity", "source": "TSA", "date": "2024-01-20", "category": "Energy", "impact": "high"},
+            {"title": "Manufacturing incentives launched for green hydrogen", "source": "El Watan", "date": "2024-11-15", "category": "Investment", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 28.0339, "lng": 1.6596},
+        "key_industries": ["Energy", "Raw Materials", "Agriculture"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 65,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 63, "trend": "stable", "confidence": 82},
+            "6_month": {"score": 60, "trend": "decreasing", "confidence": 72},
+            "12_month": {"score": 58, "trend": "stable", "confidence": 60}
+        }
+    },
+    "TN": {
+        "id": "TN",
+        "name": "Tunisia",
+        "risk_score": 58,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 15.0,
+        "trade_policy_summary": "Diversified economy with strong textile and electronics exports. Political transitions affect trade predictably.",
+        "headlines": [
+            {"title": "Automotive part exports drive industrial growth", "source": "La Presse", "date": "2024-02-15", "category": "Automotive", "impact": "medium"},
+            {"title": "Textile sector modernization program launched", "source": "TAP", "date": "2024-12-10", "category": "Textiles", "impact": "low"}
+        ],
+        "coordinates": {"lat": 33.8869, "lng": 9.5375},
+        "key_industries": ["Textiles", "Electronics", "Automotive"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 78,
+        "alternative_to": ["CN", "TR"],
+        "ai_forecast": {
+            "3_month": {"score": 59, "trend": "stable", "confidence": 80},
+            "6_month": {"score": 57, "trend": "decreasing", "confidence": 70},
+            "12_month": {"score": 55, "trend": "stable", "confidence": 55}
+        }
+    },
+    "SN": {
+        "id": "SN",
+        "name": "Senegal",
+        "risk_score": 45,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 12.0,
+        "trade_policy_summary": "Stable democracy in West Africa. Port of Dakar is a key regional logistics hub. Growing focus on energy and services.",
+        "headlines": [
+            {"title": "Dakar Port expansion attracts international logistics firms", "source": "Le Soleil", "date": "2024-05-12", "category": "Logistics", "impact": "medium"},
+            {"title": "Oil and gas production starts drive economic growth", "source": "AFP", "date": "2024-11-20", "category": "Energy", "impact": "high"}
+        ],
+        "coordinates": {"lat": 14.4974, "lng": -14.4524},
+        "key_industries": ["Raw Materials", "Energy", "Logistics"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 88,
+        "alternative_to": ["NG", "CI"],
+        "ai_forecast": {
+            "3_month": {"score": 46, "trend": "stable", "confidence": 88},
+            "6_month": {"score": 44, "trend": "decreasing", "confidence": 80},
+            "12_month": {"score": 40, "trend": "decreasing", "confidence": 65}
+        }
+    },
+    "TZ": {
+        "id": "TZ",
+        "name": "Tanzania",
+        "risk_score": 55,
+        "risk_level": "Medium",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 18.0,
+        "trade_policy_summary": "Rich in natural resources and critical minerals. Regulatory reforms aim to improve the business environment and attract FDI.",
+        "headlines": [
+            {"title": "Mining law updates attract nickel and gold investment", "source": "The Citizen", "date": "2024-03-16", "category": "Raw Materials", "impact": "high"},
+            {"title": "Regional trade with Kenya and Uganda reaches new heights", "source": "Daily News", "date": "2024-09-12", "category": "Agreement", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -6.3690, "lng": 34.8888},
+        "key_industries": ["Raw Materials", "Agriculture", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 82,
+        "alternative_to": ["CN", "ZA"],
+        "ai_forecast": {
+            "3_month": {"score": 54, "trend": "decreasing", "confidence": 85},
+            "6_month": {"score": 52, "trend": "decreasing", "confidence": 75},
+            "12_month": {"score": 48, "trend": "stable", "confidence": 65}
+        }
+    },
+    "BW": {
+        "id": "BW",
+        "name": "Botswana",
+        "risk_score": 28,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 10.0,
+        "trade_policy_summary": "Highly stable democracy. World leader in diamond exports. Diversifying into tech and financial services.",
+        "headlines": [
+            {"title": "Diamond export values remain resilient", "source": "Daily News BW", "date": "2024-01-16", "category": "Raw Materials", "impact": "low"},
+            {"title": "New solar industrial park opens near Gaborone", "source": "Mmegi", "date": "2024-11-20", "category": "Energy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -22.3285, "lng": 24.6849},
+        "key_industries": ["Raw Materials", "Energy", "Technology"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 95,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 29, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 28, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 26, "trend": "decreasing", "confidence": 75}
+        }
+    },
+    "UZ": {
+        "id": "UZ",
+        "name": "Uzbekistan",
+        "risk_score": 52,
+        "risk_level": "Medium",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 12.0,
+        "trade_policy_summary": "Fast-growing market in Central Asia. Significant reforms in textiles and mining to attract foreign investment.",
+        "headlines": [
+            {"title": "Textile sector privatization brings record FDI", "source": "Kun.uz", "date": "2024-04-12", "category": "Textiles", "impact": "high"},
+            {"title": "New transport corridors to South Asia finalized", "source": "Gazeta.uz", "date": "2024-12-05", "category": "Logistics", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 41.3775, "lng": 64.5853},
+        "key_industries": ["Textiles", "Raw Materials", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 80,
+        "alternative_to": ["CN", "RU"],
+        "ai_forecast": {
+            "3_month": {"score": 51, "trend": "decreasing", "confidence": 88},
+            "6_month": {"score": 48, "trend": "decreasing", "confidence": 78},
+            "12_month": {"score": 45, "trend": "stable", "confidence": 65}
         }
     },
     "JO": {
         "id": "JO",
         "name": "Jordan",
-        "risk_score": 52,
-        "risk_level": "Medium",
+        "risk_score": 38,
+        "risk_level": "Low",
         "risk_trend": "stable",
-        "tariff_percentage": 10.0,
-        "trade_policy_summary": "Highly stable regional partner with strong focus on pharmaceutical and tech services. Key player in regional energy and water security.",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Stable partner in Middle East with strong service and pharma exports. Significant focus on logistics hub expansion.",
         "headlines": [
-            {"title": "Pharma exports reach new MENA markets", "source": "Jordan Times", "date": "2024-01-16", "category": "Pharmaceuticals", "impact": "medium"},
-            {"title": "Tech startup ecosystem sees record early-stage funding", "source": "Amman Biz", "date": "2024-01-14", "category": "Investment", "impact": "low"},
-            {"title": "Strategic trade agreements with US and EU expanded", "source": "Policy JO", "date": "2024-01-12", "category": "Agreement", "impact": "medium"}
+            {"title": "Pharma exports to regional markets grow 15%", "source": "Jordan Times", "date": "2024-02-14", "category": "Pharmaceuticals", "impact": "medium"},
+            {"title": "Renewable energy infrastructure reaches 30% of power grid", "source": "Petra", "date": "2024-10-10", "category": "Energy", "impact": "low"}
         ],
-        "coordinates": {"lat": 30.5852, "lng": 36.2384},
-        "key_industries": ["Pharmaceuticals", "Electronics", "Energy"],
-        "supply_chain_risk": "Medium",
-        "friend_shore_score": 85,
+        "coordinates": {"lat": 31.2456, "lng": 36.5102},
+        "key_industries": ["Pharmaceuticals", "Energy", "Logistics"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 90,
+        "alternative_to": ["EG", "SA"],
+        "ai_forecast": {
+            "3_month": {"score": 37, "trend": "stable", "confidence": 92},
+            "6_month": {"score": 36, "trend": "stable", "confidence": 85},
+            "12_month": {"score": 35, "trend": "stable", "confidence": 75}
+        }
+    },
+    "GE": {
+        "id": "GE",
+        "name": "Georgia",
+        "risk_score": 42,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 7.5,
+        "trade_policy_summary": "Strategic transit hub between Europe and Asia. Business-friendly regulatory environment and growing logistics sector.",
+        "headlines": [
+            {"title": "Deep sea port expansion project update", "source": "Civil.ge", "date": "2024-03-22", "category": "Logistics", "impact": "high"},
+            {"title": "Digital trade platform launched for SE corridor", "source": "Agenda.ge", "date": "2024-09-14", "category": "Technology", "impact": "low"}
+        ],
+        "coordinates": {"lat": 42.3154, "lng": 43.3569},
+        "key_industries": ["Logistics", "Agriculture", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 88,
+        "alternative_to": ["RU", "TR"],
+        "ai_forecast": {
+            "3_month": {"score": 43, "trend": "stable", "confidence": 90},
+            "6_month": {"score": 40, "trend": "decreasing", "confidence": 82},
+            "12_month": {"score": 38, "trend": "decreasing", "confidence": 70}
+        }
+    },
+    "MM": {
+        "id": "MM",
+        "name": "Myanmar",
+        "risk_score": 88,
+        "risk_level": "High",
+        "risk_trend": "increasing",
+        "tariff_percentage": 30.0,
+        "trade_policy_summary": "Extremely high operational risk due to political instability. Significant impact on textiles and energy exports.",
+        "headlines": [
+            {"title": "Textile factory output drops amidst security concerns", "source": "Myanmar Now", "date": "2024-01-25", "category": "Textiles", "impact": "high"},
+            {"title": "Border trade with neighbors remains volatile", "source": "Irrawaddy", "date": "2024-10-12", "category": "Trade Flow", "impact": "high"}
+        ],
+        "coordinates": {"lat": 21.9162, "lng": 95.9560},
+        "key_industries": ["Textiles", "Energy", "Raw Materials"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 20,
         "alternative_to": [],
         "ai_forecast": {
-            "3_month": {"score": 53, "trend": "stable", "confidence": 88},
-            "6_month": {"score": 54, "trend": "stable", "confidence": 80},
-            "12_month": {"score": 52, "trend": "stable", "confidence": 72}
+            "3_month": {"score": 90, "trend": "increasing", "confidence": 70},
+            "6_month": {"score": 92, "trend": "increasing", "confidence": 60},
+            "12_month": {"score": 85, "trend": "decreasing", "confidence": 45}
+        }
+    },
+    "FJ": {
+        "id": "FJ",
+        "name": "Fiji",
+        "risk_score": 32,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Pacific hub focused on services and sustainable agriculture. Low risk environment with high strategic importance in Oceania.",
+        "headlines": [
+            {"title": "Renewable energy transition strategy gains pace", "source": "Fiji Village", "date": "2024-04-12", "category": "Energy", "impact": "medium"},
+            {"title": "Sustainable agriculture exports to Australia show growth", "source": "Fiji Times", "date": "2024-11-05", "category": "Agriculture", "impact": "low"}
+        ],
+        "coordinates": {"lat": -17.7134, "lng": 178.0650},
+        "key_industries": ["Agriculture", "Energy", "Logistics"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 92,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 33, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 32, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 30, "trend": "stable", "confidence": 80}
         }
     }
 }
