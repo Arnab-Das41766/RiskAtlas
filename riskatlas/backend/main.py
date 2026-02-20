@@ -349,6 +349,342 @@ COUNTRIES_DATA = {
             "6_month": {"score": 36, "trend": "stable", "confidence": 78},
             "12_month": {"score": 35, "trend": "stable", "confidence": 70}
         }
+    },
+    "GB": {
+        "id": "GB",
+        "name": "United Kingdom",
+        "risk_score": 35,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 7.0,
+        "trade_policy_summary": "Post-Brexit trade framework stabilizing. Strong services sector and growing tech ecosystem. Predictable regulatory environment.",
+        "headlines": [
+            {"title": "New trade deals signed with Indo-Pacific partners", "source": "FT", "date": "2024-01-16", "category": "Diplomacy", "impact": "medium"},
+            {"title": "Services sector growth exceeds expectations", "source": "BBC Business", "date": "2024-01-14", "category": "Economy", "impact": "low"},
+            {"title": "UK AI Safety Summit drives new regulations", "source": "TechUK", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 55.3781, "lng": -3.4360},
+        "key_industries": ["Pharmaceuticals", "Energy", "Electronics"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 90,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 36, "trend": "stable", "confidence": 88},
+            "6_month": {"score": 37, "trend": "stable", "confidence": 80},
+            "12_month": {"score": 38, "trend": "stable", "confidence": 72}
+        }
+    },
+    "FR": {
+        "id": "FR",
+        "name": "France",
+        "risk_score": 30,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Stable EU member with strong industrial base. Focus on strategic autonomy in energy and pharmaceuticals.",
+        "headlines": [
+            {"title": "New industrial decarbonization fund launched", "source": "Le Monde Business", "date": "2024-01-15", "category": "Energy", "impact": "medium"},
+            {"title": "Agricultural exports remain strong amidst EU reforms", "source": "Eurostat", "date": "2024-01-13", "category": "Agriculture", "impact": "low"},
+            {"title": "Tech startup funding reaches new record", "source": "France Tech", "date": "2024-01-10", "category": "Investment", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 46.2276, "lng": 2.2137},
+        "key_industries": ["Pharmaceuticals", "Automotive", "Energy", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 95,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 31, "trend": "stable", "confidence": 92},
+            "6_month": {"score": 32, "trend": "stable", "confidence": 85},
+            "12_month": {"score": 33, "trend": "stable", "confidence": 75}
+        }
+    },
+    "CA": {
+        "id": "CA",
+        "name": "Canada",
+        "risk_score": 25,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 6.5,
+        "trade_policy_summary": "Stable USMCA partner. Strong natural resource exporter. Reliable regulatory framework and high supply chain resilience.",
+        "headlines": [
+            {"title": "Critical minerals partnership expanded with US", "source": "Globe and Mail", "date": "2024-01-16", "category": "Raw Materials", "impact": "high"},
+            {"title": "Energy exports via TMX pipeline project update", "source": "Calgary Herald", "date": "2024-01-14", "category": "Energy", "impact": "medium"},
+            {"title": "New tech talent visa attracts global specialists", "source": "Financial Post", "date": "2024-01-11", "category": "Policy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 56.1304, "lng": -106.3468},
+        "key_industries": ["Raw Materials", "Energy", "Automotive"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 98,
+        "alternative_to": ["RU", "CN"],
+        "ai_forecast": {
+            "3_month": {"score": 26, "trend": "stable", "confidence": 95},
+            "6_month": {"score": 27, "trend": "stable", "confidence": 88},
+            "12_month": {"score": 28, "trend": "stable", "confidence": 78}
+        }
+    },
+    "AU": {
+        "id": "AU",
+        "name": "Australia",
+        "risk_score": 28,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Major commodity exporter. Stable legal system. Pivoting trade relations toward SE Asia and strengthening links with US/UK.",
+        "headlines": [
+            {"title": "Iron ore exports reach new highs in Q4", "source": "AFR", "date": "2024-01-15", "category": "Economy", "impact": "medium"},
+            {"title": "New critical minerals strategy launched", "source": "Government News", "date": "2024-01-13", "category": "Policy", "impact": "high"},
+            {"title": "Wine exports to China normalize", "source": "ABC News", "date": "2024-01-10", "category": "Agriculture", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -25.2744, "lng": 133.7751},
+        "key_industries": ["Raw Materials", "Energy", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 94,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 29, "trend": "stable", "confidence": 92},
+            "6_month": {"score": 30, "trend": "stable", "confidence": 85},
+            "12_month": {"score": 31, "trend": "stable", "confidence": 75}
+        }
+    },
+    "SG": {
+        "id": "SG",
+        "name": "Singapore",
+        "risk_score": 20,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 0.0,
+        "trade_policy_summary": "Global trade and finance hub. Highly efficient logistics and low regulatory risk. Strategic location for SE Asian trade.",
+        "headlines": [
+            {"title": "Port of Singapore breaks container throughput record", "source": "Straits Times", "date": "2024-01-16", "category": "Logistics", "impact": "medium"},
+            {"title": "FinTech investments surge in early 2024", "source": "Business Times", "date": "2024-01-14", "category": "Investment", "impact": "low"},
+            {"title": "Digital economy agreement signed with ASEAN", "source": "CNA", "date": "2024-01-12", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 1.3521, "lng": 103.8198},
+        "key_industries": ["Electronics", "Pharmaceuticals", "Energy"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 96,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 21, "trend": "stable", "confidence": 98},
+            "6_month": {"score": 22, "trend": "stable", "confidence": 92},
+            "12_month": {"score": 23, "trend": "stable", "confidence": 85}
+        }
+    },
+    "AE": {
+        "id": "AE",
+        "name": "UAE",
+        "risk_score": 35,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 5.0,
+        "trade_policy_summary": "Diversifying economy away from oil. Strategic trade gateway between East and West. Stable business environment.",
+        "headlines": [
+            {"title": "Non-oil trade reaches historic high", "source": "WAM", "date": "2024-01-15", "category": "Economy", "impact": "medium"},
+            {"title": "New trade corridor agreement with India progressed", "source": "Gulf News", "date": "2024-01-13", "category": "Diplomacy", "impact": "medium"},
+            {"title": "AI research hub expanded in Abu Dhabi", "source": "Khaleej Times", "date": "2024-01-11", "category": "Policy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 23.4241, "lng": 53.8478},
+        "key_industries": ["Energy", "Electronics", "Pharmaceuticals"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 85,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 36, "trend": "stable", "confidence": 90},
+            "6_month": {"score": 37, "trend": "stable", "confidence": 85},
+            "12_month": {"score": 38, "trend": "stable", "confidence": 75}
+        }
+    },
+    "ID": {
+        "id": "ID",
+        "name": "Indonesia",
+        "risk_score": 55,
+        "risk_level": "Medium",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 15.0,
+        "trade_policy_summary": "Rich in natural resources, especially nickel for EV batteries. Improving infrastructure but regulatory complexity remains high.",
+        "headlines": [
+            {"title": "Nickel export ban drives downstream investment", "source": "Jakarta Post", "date": "2024-01-15", "category": "Raw Materials", "impact": "high"},
+            {"title": "New capital city project attracts foreign interest", "source": "Tempo", "date": "2024-01-13", "category": "Investment", "impact": "medium"},
+            {"title": "Tech sector growth continues despite global slowdown", "source": "DealStreetAsia", "date": "2024-01-11", "category": "Industry", "impact": "low"}
+        ],
+        "coordinates": {"lat": -0.7893, "lng": 113.9213},
+        "key_industries": ["Raw Materials", "Energy", "Agriculture", "Textiles"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 75,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 53, "trend": "decreasing", "confidence": 80},
+            "6_month": {"score": 51, "trend": "decreasing", "confidence": 70},
+            "12_month": {"score": 48, "trend": "stable", "confidence": 60}
+        }
+    },
+    "ZA": {
+        "id": "ZA",
+        "name": "South Africa",
+        "risk_score": 62,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 12.0,
+        "trade_policy_summary": "Key entry point to African markets. Infrastructure challenges (energy, logistics) affect export efficiency. Strong legal framework.",
+        "headlines": [
+            {"title": "Energy grid stability efforts show progress", "source": "Fin24", "date": "2024-01-15", "category": "Energy", "impact": "medium"},
+            {"title": "Logistics bottlenecks at ports affect mining exports", "source": "Reuters SA", "date": "2024-01-13", "category": "Logistics", "impact": "high"},
+            {"title": "Automotive manufacturing incentives extended", "source": "Business Day", "date": "2024-01-11", "category": "Policy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -30.5595, "lng": 22.9375},
+        "key_industries": ["Raw Materials", "Automotive", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 65,
+        "alternative_to": ["CN", "RU"],
+        "ai_forecast": {
+            "3_month": {"score": 63, "trend": "stable", "confidence": 75},
+            "6_month": {"score": 64, "trend": "increasing", "confidence": 65},
+            "12_month": {"score": 60, "trend": "decreasing", "confidence": 50}
+        }
+    },
+    "IT": {
+        "id": "IT",
+        "name": "Italy",
+        "risk_score": 40,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Strong manufacturing tradition, particularly in luxury goods, automotive, and pharmaceuticals. Reliable EU partner.",
+        "headlines": [
+            {"title": "Luxury exports reach pre-pandemic levels", "source": "Il Sole 24 Ore", "date": "2024-01-15", "category": "Industry", "impact": "low"},
+            {"title": "Pharmaceutical exports surge in Q4", "source": "ANSA", "date": "2024-01-13", "category": "Pharmaceuticals", "impact": "medium"},
+            {"title": "New solar energy park announced in Sicily", "source": "Corriere della Sera", "date": "2024-01-11", "category": "Energy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 41.8719, "lng": 12.5674},
+        "key_industries": ["Pharmaceuticals", "Automotive", "Textiles", "Agriculture"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 90,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 41, "trend": "stable", "confidence": 88},
+            "6_month": {"score": 42, "trend": "stable", "confidence": 80},
+            "12_month": {"score": 43, "trend": "stable", "confidence": 70}
+        }
+    },
+    "ES": {
+        "id": "ES",
+        "name": "Spain",
+        "risk_score": 35,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Growing hub for renewable energy and digital services. Major agricultural exporter within the EU.",
+        "headlines": [
+            {"title": "Green hydrogen project receives EU funding", "source": "El Pais", "date": "2024-01-16", "category": "Energy", "impact": "medium"},
+            {"title": "Tech talent migration boosts Barcelona tech hub", "source": "The Local", "date": "2024-01-14", "category": "Investment", "impact": "low"},
+            {"title": "Drought affects olive oil export forecasts", "source": "AgriNews", "date": "2024-01-12", "category": "Agriculture", "impact": "high"}
+        ],
+        "coordinates": {"lat": 40.4637, "lng": -3.7492},
+        "key_industries": ["Energy", "Agriculture", "Automotive", "Textiles"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 92,
+        "alternative_to": [],
+        "ai_forecast": {
+            "3_month": {"score": 36, "trend": "stable", "confidence": 90},
+            "6_month": {"score": 37, "trend": "stable", "confidence": 82},
+            "12_month": {"score": 38, "trend": "stable", "confidence": 72}
+        }
+    },
+    "NL": {
+        "id": "NL",
+        "name": "Netherlands",
+        "risk_score": 18,
+        "risk_level": "Low",
+        "risk_trend": "stable",
+        "tariff_percentage": 8.0,
+        "trade_policy_summary": "Critical global logistics hub via Port of Rotterdam. Extremely stable with world-class infrastructure.",
+        "headlines": [
+            {"title": "Rotterdam Port expands smart terminal capacity", "source": "Port Insider", "date": "2024-01-15", "category": "Logistics", "impact": "medium"},
+            {"title": "ASML reports strong demand for chip equipment", "source": "NL Times", "date": "2024-01-13", "category": "Semiconductors", "impact": "high"},
+            {"title": "New sustainable agriculture tech exported globally", "source": "Wageningen News", "date": "2024-01-11", "category": "Agriculture", "impact": "low"}
+        ],
+        "coordinates": {"lat": 52.1326, "lng": 5.2913},
+        "key_industries": ["Semiconductors", "Agriculture", "Energy", "Pharmaceuticals"],
+        "supply_chain_risk": "Low",
+        "friend_shore_score": 97,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 19, "trend": "stable", "confidence": 99},
+            "6_month": {"score": 20, "trend": "stable", "confidence": 95},
+            "12_month": {"score": 21, "trend": "stable", "confidence": 88}
+        }
+    },
+    "AR": {
+        "id": "AR",
+        "name": "Argentina",
+        "risk_score": 75,
+        "risk_level": "High",
+        "risk_trend": "decreasing",
+        "tariff_percentage": 20.0,
+        "trade_policy_summary": "Economic reforms underway to stabilize currency and reduce debt. Rich in lithium and agricultural commodities.",
+        "headlines": [
+            {"title": "Lithium production capacity expands for EV market", "source": "LatAm Mining", "date": "2024-01-16", "category": "Raw Materials", "impact": "high"},
+            {"title": "New economic measures aim to reduce inflation", "source": "BA Times", "date": "2024-01-14", "category": "Economy", "impact": "medium"},
+            {"title": "Soybean harvest outlook improves following rains", "source": "AgroArgentina", "date": "2024-01-12", "category": "Agriculture", "impact": "medium"}
+        ],
+        "coordinates": {"lat": -38.4161, "lng": -63.6167},
+        "key_industries": ["Agriculture", "Raw Materials", "Energy"],
+        "supply_chain_risk": "High",
+        "friend_shore_score": 60,
+        "alternative_to": ["RU"],
+        "ai_forecast": {
+            "3_month": {"score": 72, "trend": "decreasing", "confidence": 70},
+            "6_month": {"score": 68, "trend": "decreasing", "confidence": 60},
+            "12_month": {"score": 60, "trend": "stable", "confidence": 45}
+        }
+    },
+    "TR": {
+        "id": "TR",
+        "name": "Turkey",
+        "risk_score": 60,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 13.5,
+        "trade_policy_summary": "Strategic bridge between Europe and Asia. Strong automotive and textile exporter. Complex economic environment.",
+        "headlines": [
+            {"title": "Automotive exports reach new peaks in Q4", "source": "Daily Sabah", "date": "2024-01-15", "category": "Industry", "impact": "medium"},
+            {"title": "New logistics hub opened on Mediterranean coast", "source": "Trade News TR", "date": "2024-01-13", "category": "Logistics", "impact": "low"},
+            {"title": "Economic policy shift aims for stability", "source": "Hurriyet Daily", "date": "2024-01-11", "category": "Economy", "impact": "medium"}
+        ],
+        "coordinates": {"lat": 38.9637, "lng": 35.2433},
+        "key_industries": ["Automotive", "Textiles", "Raw Materials"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 70,
+        "alternative_to": ["CN", "RU"],
+        "ai_forecast": {
+            "3_month": {"score": 61, "trend": "stable", "confidence": 82},
+            "6_month": {"score": 62, "trend": "stable", "confidence": 75},
+            "12_month": {"score": 58, "trend": "decreasing", "confidence": 60}
+        }
+    },
+    "MY": {
+        "id": "MY",
+        "name": "Malaysia",
+        "risk_score": 45,
+        "risk_level": "Medium",
+        "risk_trend": "stable",
+        "tariff_percentage": 10.0,
+        "trade_policy_summary": "Core hub for semiconductor backend operations. Stable democracy with business-friendly policies.",
+        "headlines": [
+            {"title": "Semiconductor testing facilities expand in Penang", "source": "The Star", "date": "2024-01-16", "category": "Semiconductors", "impact": "high"},
+            {"title": "New digital hub initiatives launched", "source": "Malaysian Business", "date": "2024-01-14", "category": "Investment", "impact": "medium"},
+            {"title": "Renewable energy exports to Singapore progress", "source": "Edge Markets", "date": "2024-01-12", "category": "Energy", "impact": "low"}
+        ],
+        "coordinates": {"lat": 4.2105, "lng": 101.9758},
+        "key_industries": ["Semiconductors", "Electronics", "Energy"],
+        "supply_chain_risk": "Medium",
+        "friend_shore_score": 85,
+        "alternative_to": ["CN"],
+        "ai_forecast": {
+            "3_month": {"score": 46, "trend": "stable", "confidence": 85},
+            "6_month": {"score": 47, "trend": "stable", "confidence": 78},
+            "12_month": {"score": 45, "trend": "stable", "confidence": 65}
+        }
     }
 }
 

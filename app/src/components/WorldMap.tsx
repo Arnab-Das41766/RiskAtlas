@@ -26,7 +26,26 @@ const countryCodeMap: Record<string, string> = {
   'IN': 'IND',
   'RU': 'RUS',
   'JP': 'JPN',
-  'SA': 'SAU'
+  'SA': 'SAU',
+  'VN': 'VNM',
+  'MX': 'MEX',
+  'TH': 'THA',
+  'TW': 'TWN',
+  'KR': 'KOR',
+  'GB': 'GBR',
+  'FR': 'FRA',
+  'CA': 'CAN',
+  'AU': 'AUS',
+  'SG': 'SGP',
+  'AE': 'ARE',
+  'ID': 'IDN',
+  'ZA': 'ZAF',
+  'IT': 'ITA',
+  'ES': 'ESP',
+  'NL': 'NLD',
+  'AR': 'ARG',
+  'TR': 'TUR',
+  'MY': 'MYS'
 };
 
 // Reverse mapping
