@@ -61,6 +61,42 @@ input[type="number"] {
   animation: shimmer 1.5s infinite;
 }
 
+/* ── Selected country marker: radar-ping pulse ─────────────── */
+@keyframes marker-ping {
+  0% {
+    r: 7;
+    opacity: 0.8;
+  }
+  70% {
+    r: 22;
+    opacity: 0;
+  }
+  100% {
+    r: 22;
+    opacity: 0;
+  }
+}
+
+@keyframes marker-ping-slow {
+  0% {
+    r: 7;
+    opacity: 0.5;
+  }
+  100% {
+    r: 30;
+    opacity: 0;
+  }
+}
+
+.marker-pulse-ring-1 {
+  animation: marker-ping 1.6s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.marker-pulse-ring-2 {
+  animation: marker-ping 1.6s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 0.5s;
+}
+
 /* Badge animations */
 @keyframes badge-pulse {
   0%, 100% {

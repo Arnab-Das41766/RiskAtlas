@@ -1944,87 +1944,413 @@ COUNTRIES_DATA = {
 
 # Policy Alerts Data
 POLICY_ALERTS = [
+    # ── HIGH IMPACT ────────────────────────────────────────────────────────────
     {
         "id": 1,
-        "title": "US 25% Tariff on Canada and Mexico",
+        "title": "US 25% Tariff on Canada and Mexico Imports",
         "country": "US",
         "category": "Tariff",
         "impact": "High",
         "date": "2025-02-10",
-        "description": "Executive order imposes 25% tariffs on most products from Canada and Mexico, with 10% on energy products.",
-        "affected_industries": ["Energy", "Automotive", "Agriculture", "Manufacturing"]
+        "description": "Executive order imposes 25% tariffs on most goods from Canada and Mexico (10% on energy imports), citing border and drug trafficking concerns. Automotive and agriculture most affected.",
+        "affected_industries": ["Automotive", "Agriculture", "Energy", "Manufacturing"]
     },
     {
         "id": 2,
-        "title": "China Dual-Use Export Control List",
-        "country": "CN",
-        "category": "Policy",
-        "impact": "High",
-        "date": "2024-11-15",
-        "description": "Consolidated list of dual-use items subject to strict export licensing, affecting global high-tech supply chains.",
-        "affected_industries": ["Electronics", "Semiconductors", "Defense"]
-    },
-    {
-        "id": 3,
-        "title": "US 10% Tariff on Chinese Imports",
+        "title": "US Additional 10% Tariff on All Chinese Imports",
         "country": "US",
         "category": "Tariff",
         "impact": "High",
         "date": "2025-02-15",
-        "description": "Initial 10% tariff on all Chinese imports, with plans to increase to 20% by March 2025.",
-        "affected_industries": ["Electronics", "Consumer Goods", "Manufacturing"]
+        "description": "10% additional tariff on all Chinese goods, stacked on existing Section 301 tariffs. Plans to escalate to 20% by Q2 2025. Semiconductor and electronics sectors most exposed.",
+        "affected_industries": ["Electronics", "Semiconductors", "Consumer Goods", "Textiles"]
+    },
+    {
+        "id": 3,
+        "title": "China Restricts Gallium, Germanium & Antimony Exports",
+        "country": "CN",
+        "category": "Export Control",
+        "impact": "High",
+        "date": "2024-08-01",
+        "description": "China banned exports of gallium and germanium compounds — critical for semiconductors and solar panels — to non-approved countries, escalating the tech supply chain war with the US.",
+        "affected_industries": ["Semiconductors", "Electronics", "Energy", "Defense"]
     },
     {
         "id": 4,
-        "title": "EU Modernized Export Control Regime",
-        "country": "EU",
-        "category": "Regulation",
-        "impact": "Medium",
-        "date": "2025-09-20",
-        "description": "EU updates dual-use export control list to enhance coordination and address emerging security technologies.",
-        "affected_industries": ["Technology", "Semiconductors", "AI"]
+        "title": "China Dual-Use Item Export Control Consolidation",
+        "country": "CN",
+        "category": "Export Control",
+        "impact": "High",
+        "date": "2024-11-15",
+        "description": "China's consolidated dual-use export control regulation now requires licenses for 700+ technology categories. Significant compliance burden for global tech and defence firms.",
+        "affected_industries": ["Semiconductors", "Electronics", "Defense", "AI"]
     },
     {
         "id": 5,
-        "title": "US 50% Tariff on India and Brazil",
-        "country": "US",
-        "category": "Tariff",
+        "title": "Russia Full Goods Sanctions — EU Package 14",
+        "country": "RU",
+        "category": "Sanctions",
         "impact": "High",
-        "date": "2025-07-14",
-        "description": "New tariff schedule imposes 50% rates on major imports from India and Brazil due to trade disputes.",
-        "affected_industries": ["Agriculture", "Pharmaceuticals", "Raw Materials"]
+        "date": "2024-06-24",
+        "description": "EU's 14th sanctions package targets revenue-generating sectors, adds 60+ entities to asset freeze list, and restricts LNG re-exports via EU ports. Energy supply risks remain elevated.",
+        "affected_industries": ["Energy", "Raw Materials", "Financial Services", "Logistics"]
     },
     {
         "id": 6,
-        "title": "Canada 25% Steel Surtax",
-        "country": "CA",
-        "category": "Tariff",
+        "title": "US Semiconductor Export Controls to China Expanded",
+        "country": "US",
+        "category": "Export Control",
         "impact": "High",
-        "date": "2025-12-05",
-        "description": "Canada implements a 25% surtax on steel derivative goods in response to global trade volatility.",
-        "affected_industries": ["Construction", "Automotive", "Infrastructure"]
+        "date": "2024-10-22",
+        "description": "BIS expands Entity List and adds restrictions on advanced AI chips (A100-class and above) and chip-manufacturing equipment exports to China. Dutch and Japanese allies align controls.",
+        "affected_industries": ["Semiconductors", "AI", "Electronics", "Defense"]
     },
     {
         "id": 7,
-        "title": "Cambodia-US Reciprocal Trade Pact",
-        "country": "KH",
-        "category": "Agreement",
-        "impact": "Medium",
-        "date": "2025-10-15",
-        "description": "Cambodia eliminates tariffs on US goods and aligns with US export controls under new agreement.",
-        "affected_industries": ["Agriculture", "Electronics", "Policy"]
+        "title": "India Imposes Safeguard Duties on Steel Imports",
+        "country": "IN",
+        "category": "Tariff",
+        "impact": "High",
+        "date": "2025-01-20",
+        "description": "India's Ministry of Steel issues emergency safeguard duty of 15% on hot-rolled steel coils to counter import surges from China, Japan, and Korea impacting domestic producers.",
+        "affected_industries": ["Automotive", "Construction", "Manufacturing", "Raw Materials"]
     },
     {
         "id": 8,
-        "title": "India Joins US Secure Tech Initiative",
+        "title": "US 50% Tariff Threat on India and Brazil",
+        "country": "US",
+        "category": "Tariff",
+        "impact": "High",
+        "date": "2025-01-14",
+        "description": "White House signals 50% tariffs on India and Brazil unless both countries remove trade barriers and align on strategic minerals access. Pharmaceutical and agri sectors most at risk.",
+        "affected_industries": ["Agriculture", "Pharmaceuticals", "Raw Materials", "Textiles"]
+    },
+    {
+        "id": 9,
+        "title": "Myanmar Military Sanctions — Extended US/EU/UK Action",
+        "country": "MM",
+        "category": "Sanctions",
+        "impact": "High",
+        "date": "2024-07-11",
+        "description": "US, EU, and UK coordinate expanded sanctions on Myanmar's military-controlled entities. Textile and gem import bans tightened. Supply chain risk assessed as extreme for sourcing from Myanmar.",
+        "affected_industries": ["Textiles", "Raw Materials", "Energy"]
+    },
+    {
+        "id": 10,
+        "title": "Taiwan Strait Tensions — Contingency Supply Chain Review",
+        "country": "TW",
+        "category": "Geopolitics",
+        "impact": "High",
+        "date": "2025-01-05",
+        "description": "Rising PLA military exercises near Taiwan trigger formal supply chain contingency reviews by US, EU, and Japan. TSMC diversification to Arizona and Japan facilities accelerated.",
+        "affected_industries": ["Semiconductors", "Electronics", "Automotive", "Defense"]
+    },
+
+    # ── MEDIUM IMPACT ─────────────────────────────────────────────────────────
+    {
+        "id": 11,
+        "title": "EU Carbon Border Adjustment Mechanism (CBAM) — Phase-In",
+        "country": "EU",
+        "category": "Regulation",
+        "impact": "Medium",
+        "date": "2024-10-01",
+        "description": "CBAM's reporting phase ends; full carbon pricing kicks in from 2026. Steel, cement, aluminium, fertilisers, and hydrogen imports from high-emission countries face carbon levies.",
+        "affected_industries": ["Raw Materials", "Energy", "Manufacturing", "Agriculture"]
+    },
+    {
+        "id": 12,
+        "title": "Canada Counter-Tariffs on US Steel & Aluminum",
+        "country": "CA",
+        "category": "Tariff",
+        "impact": "Medium",
+        "date": "2025-02-12",
+        "description": "Canada announces CAD $155B in counter-tariffs on US goods in response to the 25% US tariff announcement. Steel, aluminium, and consumer goods targeted in dollar-for-dollar retaliation.",
+        "affected_industries": ["Construction", "Automotive", "Consumer Goods", "Manufacturing"]
+    },
+    {
+        "id": 13,
+        "title": "Germany Industrial Policy Subsidies — Green Steel Program",
+        "country": "DE",
+        "category": "Subsidy",
+        "impact": "Medium",
+        "date": "2024-09-12",
+        "description": "German government approves €4.5B in direct subsidies for green hydrogen-based steel production, boosting competitiveness of domestic steel and challenging WTO-neutral sourcing decisions.",
+        "affected_industries": ["Raw Materials", "Energy", "Automotive", "Manufacturing"]
+    },
+    {
+        "id": 14,
+        "title": "Australia–China Trade Normalization — Tariffs Lifted",
+        "country": "AU",
+        "category": "Agreement",
+        "impact": "Medium",
+        "date": "2024-05-30",
+        "description": "China removes remaining anti-dumping duties on Australian barley and wine, effectively ending a 3-year trade dispute. Iron ore and LNG trade relations remain stable.",
+        "affected_industries": ["Agriculture", "Energy", "Raw Materials"]
+    },
+    {
+        "id": 15,
+        "title": "EU-India Free Trade Agreement — Resumed Negotiations",
+        "country": "IN",
+        "category": "Agreement",
+        "impact": "Medium",
+        "date": "2025-01-28",
+        "description": "EU and India resume stalled FTA talks with renewed focus on services, digital trade, and green tech. Agreement expected to significantly reduce bilateral tariffs if finalised in 2025.",
+        "affected_industries": ["Pharmaceuticals", "Textiles", "Technology", "Agriculture"]
+    },
+    {
+        "id": 16,
+        "title": "Brazil Raises Import Tax on EVs from China",
+        "country": "BR",
+        "category": "Tariff",
+        "impact": "Medium",
+        "date": "2024-12-01",
+        "description": "Brazil incrementally raises tariffs on Chinese electric vehicles from 10% to 35% over 3 years to protect domestic auto industry. Applies to BYD, SAIC, and other PRC-headquartered brands.",
+        "affected_industries": ["Automotive", "Electronics", "Energy"]
+    },
+    {
+        "id": 17,
+        "title": "South Korea–US Chip 4 Alliance Formalised",
+        "country": "KR",
+        "category": "Policy",
+        "impact": "Medium",
+        "date": "2024-07-22",
+        "description": "Chip 4 alliance (US, Japan, South Korea, Taiwan) signs formal MOU on semiconductor supply chain security. South Korean firms Samsung and SK Hynix align export controls with US BIS.",
+        "affected_industries": ["Semiconductors", "Electronics", "Defense"]
+    },
+    {
+        "id": 18,
+        "title": "India Joins US Secure Tech Initiative (iCET Expansion)",
         "country": "IN",
         "category": "Policy",
         "impact": "Medium",
         "date": "2024-01-18",
-        "description": "India joins US-led initiative to secure technology supply chains and enhance regional stability.",
-        "affected_industries": ["Semiconductors", "Communications", "Electronics"]
+        "description": "India's iCET framework with the US expands to cover advanced telecom, space, and quantum computing. Brings India closer to US export control alignment and opens joint defence manufacturing.",
+        "affected_industries": ["Semiconductors", "Defense", "Technology", "Electronics"]
+    },
+    {
+        "id": 19,
+        "title": "EU 14th Russia Sanctions — LNG Re-Export Restrictions",
+        "country": "EU",
+        "category": "Sanctions",
+        "impact": "Medium",
+        "date": "2024-06-24",
+        "description": "EU formally bans re-export of Russian LNG through EU ports to third countries. Belgium, France, and Spain most affected as major transit hubs. Alternatives from Qatar and US sought.",
+        "affected_industries": ["Energy", "Logistics", "Financial Services"]
+    },
+    {
+        "id": 20,
+        "title": "Mexico Nearshoring Surge — New Industrial Zone Policy",
+        "country": "MX",
+        "category": "Policy",
+        "impact": "Medium",
+        "date": "2024-11-08",
+        "description": "Mexico launches 'Nearshoring Corridors' infrastructure programme to attract US/EU manufacturers relocating from China. Tax incentives, logistics upgrades and labour training included.",
+        "affected_industries": ["Automotive", "Electronics", "Textiles", "Manufacturing"]
+    },
+    {
+        "id": 21,
+        "title": "Cambodia–US Reciprocal Trade Agreement",
+        "country": "KH",
+        "category": "Agreement",
+        "impact": "Medium",
+        "date": "2025-01-15",
+        "description": "Cambodia eliminates tariffs on US goods and aligns export control policies with US BIS requirements. Aims to reduce GSP suspension risk and deepen trade resilience.",
+        "affected_industries": ["Textiles", "Electronics", "Agriculture"]
+    },
+    {
+        "id": 22,
+        "title": "Japan Tightens Semiconductor Equipment Export Controls",
+        "country": "JP",
+        "category": "Export Control",
+        "impact": "Medium",
+        "date": "2024-07-01",
+        "description": "Japan's METI expands export restrictions on 23 types of advanced chip-manufacturing equipment, aligning with US and Dutch Wassenaar Arrangement controls. Direct impact on ASML resales.",
+        "affected_industries": ["Semiconductors", "Electronics", "Manufacturing"]
+    },
+    {
+        "id": 23,
+        "title": "Vietnam Electronics Export Boom — New FTZ Launched",
+        "country": "VN",
+        "category": "Policy",
+        "impact": "Medium",
+        "date": "2024-10-19",
+        "description": "Vietnam launches 5 new free trade zones specifically targeting tech and electronics assembly. Samsung, Apple, and Intel expand Vietnam operations as China+1 strategy accelerates.",
+        "affected_industries": ["Electronics", "Semiconductors", "Textiles", "Manufacturing"]
+    },
+    {
+        "id": 24,
+        "title": "UAE Joins Wassenaar Arrangement — Export Controls Expanded",
+        "country": "AE",
+        "category": "Export Control",
+        "impact": "Medium",
+        "date": "2024-09-01",
+        "description": "UAE formally joins the Wassenaar Arrangement on export controls for conventional arms and dual-use goods. Significant for re-export monitoring of US and EU technology.",
+        "affected_industries": ["Defense", "Technology", "Electronics", "Logistics"]
+    },
+    {
+        "id": 25,
+        "title": "Poland Hosts NATO Forward Logistics Hub — Trade Implications",
+        "country": "PL",
+        "category": "Policy",
+        "impact": "Medium",
+        "date": "2024-08-12",
+        "description": "Poland formalises role as NATO's eastern logistics hub, boosting defence-related procurement. Dual-use technology export volumes to Poland from US and UK surge 40% YoY.",
+        "affected_industries": ["Defense", "Logistics", "Manufacturing", "Technology"]
+    },
+    {
+        "id": 26,
+        "title": "Saudi Arabia Vision 2030 — Localisation Mandates Tightened",
+        "country": "SA",
+        "category": "Regulation",
+        "impact": "Medium",
+        "date": "2024-12-15",
+        "description": "Saudi Arabia raises local content requirements for government contracts to 60% for goods and 70% for services. Foreign firms must partner with local entities or face contract exclusion.",
+        "affected_industries": ["Energy", "Manufacturing", "Construction", "Technology"]
+    },
+    {
+        "id": 27,
+        "title": "Indonesia Critical Minerals Export Ban Extended",
+        "country": "ID",
+        "category": "Export Control",
+        "impact": "Medium",
+        "date": "2024-11-01",
+        "description": "Indonesia extends and broadens raw nickel, bauxite and cobalt export bans to force domestic value-addition. EU and US raise WTO dispute proceedings.",
+        "affected_industries": ["Raw Materials", "Automotive", "Electronics", "Energy"]
+    },
+
+    # ── LOW IMPACT ────────────────────────────────────────────────────────────
+    {
+        "id": 28,
+        "title": "EU Modernised Export Control Regulation — Full Implementation",
+        "country": "EU",
+        "category": "Regulation",
+        "impact": "Low",
+        "date": "2024-09-20",
+        "description": "EU's updated dual-use Regulation 2021/821 enters full effect. Member states standardise cyber-surveillance, intangible technology transfer, and cloud-hosted controls.",
+        "affected_industries": ["Technology", "Semiconductors", "AI", "Defense"]
+    },
+    {
+        "id": 29,
+        "title": "Singapore Digital Economy Agreement with UK — Ratified",
+        "country": "SG",
+        "category": "Agreement",
+        "impact": "Low",
+        "date": "2024-04-11",
+        "description": "Singapore and UK ratify the UK-Singapore Digital Economy Agreement, enabling seamless cross-border data flows, e-invoicing standards, and digital payments interoperability.",
+        "affected_industries": ["Technology", "Financial Services", "Logistics"]
+    },
+    {
+        "id": 30,
+        "title": "Netherlands (ASML) Export Licence Revocations — China",
+        "country": "NL",
+        "category": "Export Control",
+        "impact": "Low",
+        "date": "2024-09-06",
+        "description": "Dutch government revokes remaining export licences for ASML DUV lithography tools to China, fully aligning with US BIS advanced chip manufacturing controls.",
+        "affected_industries": ["Semiconductors", "Electronics", "Manufacturing"]
+    },
+    {
+        "id": 31,
+        "title": "Argentina Economic Reform — Tariff Simplification 2024",
+        "country": "AR",
+        "category": "Policy",
+        "impact": "Low",
+        "date": "2024-08-05",
+        "description": "Argentina's Milei administration reduces import tariff codes from 12,000 to 8,000 as part of shock-therapy economic deregulation. Implication for bilateral trade agreements under review.",
+        "affected_industries": ["Agriculture", "Raw Materials", "Manufacturing"]
+    },
+    {
+        "id": 32,
+        "title": "UK Post-Brexit Trade Policy Review — CPTPP Accession",
+        "country": "GB",
+        "category": "Agreement",
+        "impact": "Low",
+        "date": "2024-12-10",
+        "description": "UK completes CPTPP accession process, gaining preferential access to Indo-Pacific markets. Financial services, automotive, and agrifood expected to benefit most in the near term.",
+        "affected_industries": ["Financial Services", "Automotive", "Agriculture"]
+    },
+    {
+        "id": 33,
+        "title": "Switzerland–EU Framework Deal — Trade Provisions",
+        "country": "CH",
+        "category": "Agreement",
+        "impact": "Low",
+        "date": "2025-01-22",
+        "description": "Switzerland signs new bilateral agreements with the EU replacing failed 2021 framework. Ensures continued SEM access for Swiss goods and financial services into 2030.",
+        "affected_industries": ["Financial Services", "Pharmaceuticals", "Manufacturing"]
+    },
+    {
+        "id": 34,
+        "title": "Morocco — EU Green Hydrogen Export Agreement",
+        "country": "MA",
+        "category": "Agreement",
+        "impact": "Low",
+        "date": "2024-10-05",
+        "description": "Morocco signs landmark green hydrogen export framework with the EU, targeting 10 GW of green hydrogen production by 2030. EU invests €2.2B in North African transit infrastructure.",
+        "affected_industries": ["Energy", "Raw Materials", "Manufacturing"]
+    },
+    {
+        "id": 35,
+        "title": "Chile Lithium Nationalisation — State Enterprise Created",
+        "country": "CL",
+        "category": "Policy",
+        "impact": "Low",
+        "date": "2024-05-20",
+        "description": "Chile creates state lithium company and requires government majority control in all new lithium contracts. Affects SQM and Albemarle operations. Supply implications for EV battery manufacturers.",
+        "affected_industries": ["Raw Materials", "Automotive", "Energy"]
+    },
+    {
+        "id": 36,
+        "title": "Nigeria ECOWAS Trade Digitisation — Single Window Launched",
+        "country": "NG",
+        "category": "Regulation",
+        "impact": "Low",
+        "date": "2024-07-30",
+        "description": "Nigeria launches ECOWAS-aligned single trade window for import/export documentation, reducing clearance times by an estimated 40%. Impacts regional agricultural and raw materials trade.",
+        "affected_industries": ["Agriculture", "Raw Materials", "Logistics"]
+    },
+    {
+        "id": 37,
+        "title": "Turkey Joins BRICS+ Formal Observer Status",
+        "country": "TR",
+        "category": "Geopolitics",
+        "impact": "Low",
+        "date": "2024-11-22",
+        "description": "Turkey formally applies and receives observer status in BRICS+. Signals strategic diversification from NATO-aligned trade blocs while maintaining EU customs union, creating regulatory tension.",
+        "affected_industries": ["Raw Materials", "Agriculture", "Textiles", "Energy"]
+    },
+    {
+        "id": 38,
+        "title": "Thailand — China FTA Upgrade Signed",
+        "country": "TH",
+        "category": "Agreement",
+        "impact": "Low",
+        "date": "2024-09-14",
+        "description": "Thailand and China upgrade 2005 ASEAN-China FTA with new chapters on digital trade, e-commerce and investment protection. Boosts Thai automotive and agri export access to Chinese markets.",
+        "affected_industries": ["Automotive", "Agriculture", "Electronics"]
+    },
+    {
+        "id": 39,
+        "title": "Pakistan IMF Loan Conditionality — Import Restrictions",
+        "country": "PK",
+        "category": "Regulation",
+        "impact": "Low",
+        "date": "2024-04-01",
+        "description": "Pakistan's SBP lifts import restrictions linked to IMF programme Letter of Intent. However, prior approval requirements for luxury and non-essential goods remain in place.",
+        "affected_industries": ["Consumer Goods", "Textiles", "Electronics"]
+    },
+    {
+        "id": 40,
+        "title": "Georgia Deep Sea Port Expansion — Trade Corridor Signal",
+        "country": "GE",
+        "category": "Policy",
+        "impact": "Low",
+        "date": "2024-06-22",
+        "description": "Georgia's Anaklia Deep Sea Port project resumes with Korean and EU financing. Designed to serve as the primary Middle Corridor alternative to Russia from Central Asia to Europe.",
+        "affected_industries": ["Logistics", "Energy", "Raw Materials"]
     }
 ]
+
 
 # Supply Chain Vulnerability Data
 SUPPLY_CHAIN_DATA = {

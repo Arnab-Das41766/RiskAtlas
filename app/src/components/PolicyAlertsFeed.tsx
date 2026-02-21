@@ -66,11 +66,14 @@ export function PolicyAlertsFeed({ selectedCountry }: PolicyAlertsFeedProps) {
       'Incentive': 'bg-emerald-500/20 text-emerald-400',
       'Policy': 'bg-blue-500/20 text-blue-400',
       'Regulation': 'bg-cyan-500/20 text-cyan-400',
+      'Sanctions': 'bg-red-700/30 text-red-400',
+      'Agreement': 'bg-teal-500/20 text-teal-400',
+      'Geopolitics': 'bg-rose-500/20 text-rose-400',
     };
     return colors[category] || 'bg-slate-500/20 text-slate-400';
   };
 
-  const categories = ['all', 'Export Control', 'Tariff', 'Subsidy', 'Policy', 'Regulation'];
+  const categories = ['all', 'Tariff', 'Export Control', 'Sanctions', 'Policy', 'Regulation', 'Agreement', 'Geopolitics', 'Subsidy'];
 
   return (
     <Card className="bg-slate-900/50 border-slate-700 h-full flex flex-col overflow-hidden">
@@ -107,8 +110,8 @@ export function PolicyAlertsFeed({ selectedCountry }: PolicyAlertsFeedProps) {
                 loadAlerts();
               }}
               className={`text-xs capitalize whitespace-nowrap ${filter === cat
-                  ? 'bg-blue-600 hover:bg-blue-700'
-                  : 'bg-slate-800 border-slate-600 text-slate-400 hover:text-white'
+                ? 'bg-blue-600 hover:bg-blue-700'
+                : 'bg-slate-800 border-slate-600 text-slate-400 hover:text-white'
                 }`}
             >
               {cat}

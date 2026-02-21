@@ -10,7 +10,7 @@ import type {
   Industry
 } from '@/types';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = '/api';
 
 // Dashboard
 export async function getDashboardMetrics(): Promise<DashboardMetrics> {
