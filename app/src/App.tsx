@@ -16,6 +16,7 @@ import { AIForecasting } from '@/components/AIForecasting';
 import { SupplyChainVulnerability } from '@/components/SupplyChainVulnerability';
 import { AlternativeSuppliers } from '@/components/AlternativeSuppliers';
 import { CountrySearch } from '@/components/CountrySearch';
+import { RiskChat } from '@/components/RiskChat';
 import { getCountries, getCountry } from '@/services/api';
 import type { Country, CountryDetail } from '@/types';
 import './App.css';
@@ -213,70 +214,72 @@ function App() {
       </main>
 
       <footer className="border-t border-slate-800 bg-slate-950/80 backdrop-blur-md mt-12">
-  <div className="max-w-[1920px] mx-auto px-6 lg:px-12 py-10">
+        <div className="max-w-[1920px] mx-auto px-6 lg:px-12 py-10">
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
 
-      {/* LEFT - BRAND */}
-      <div className="flex flex-col gap-2">
-        <h2 className="text-xl font-semibold tracking-wide">
-          <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent">
-            RISK-ATLAS
-          </span>
-        </h2>
-        <p className="text-[11px] tracking-widest uppercase text-slate-500">
-          Trade Risk Intelligence Platform
-        </p>
-        <p className="text-xs text-slate-600 mt-2">
-          © {new Date().getFullYear()} RISK-ATLAS. All rights reserved.
-        </p>
-      </div>
+            {/* LEFT - BRAND */}
+            <div className="flex flex-col gap-2">
+              <h2 className="text-xl font-semibold tracking-wide">
+                <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent">
+                  RISK-ATLAS
+                </span>
+              </h2>
+              <p className="text-[11px] tracking-widest uppercase text-slate-500">
+                Trade Risk Intelligence Platform
+              </p>
+              <p className="text-xs text-slate-600 mt-2">
+                © {new Date().getFullYear()} RISK-ATLAS. All rights reserved.
+              </p>
+            </div>
 
-      {/* CENTER - STATUS */}
-      <div className="flex flex-col items-start md:items-center gap-3 text-sm text-slate-400">
-        <span>
-          Last updated: {new Date().toLocaleString()}
-        </span>
+            {/* CENTER - STATUS */}
+            <div className="flex flex-col items-start md:items-center gap-3 text-sm text-slate-400">
+              <span>
+                Last updated: {new Date().toLocaleString()}
+              </span>
 
-        <div className="flex items-center gap-2">
-          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-          <span className="text-green-400 font-medium">
-            System Operational
-          </span>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                <span className="text-green-400 font-medium">
+                  System Operational
+                </span>
+              </div>
+            </div>
+
+            {/* RIGHT - LINKS */}
+            <div className="flex flex-col items-start md:items-end gap-3">
+
+              <a
+                href="https://github.com/Arnab-Das41766/RiskAtlas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors duration-300"
+              >
+                {/* GitHub SVG */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                >
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.332-1.756-1.332-1.756-1.089-.744.083-.729.083-.729 1.205.085 1.838 1.238 1.838 1.238 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.335-5.467-5.932 0-1.31.468-2.38 1.235-3.22-.135-.303-.54-1.52.105-3.165 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.645.24 2.862.12 3.165.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.922.435.375.81 1.096.81 2.21 0 1.596-.015 2.885-.015 3.28 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>View on GitHub</span>
+              </a>
+
+              <span className="text-xs text-slate-600">
+                Developed by CODE_PAGLU with ❤️
+              </span>
+
+            </div>
+
+          </div>
+
         </div>
-      </div>
-
-      {/* RIGHT - LINKS */}
-      <div className="flex flex-col items-start md:items-end gap-3">
-
-        <a
-          href="https://github.com/Arnab-Das41766/RiskAtlas"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors duration-300"
-        >
-          {/* GitHub SVG */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="w-5 h-5"
-          >
-            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.332-1.756-1.332-1.756-1.089-.744.083-.729.083-.729 1.205.085 1.838 1.238 1.838 1.238 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.335-5.467-5.932 0-1.31.468-2.38 1.235-3.22-.135-.303-.54-1.52.105-3.165 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.645.24 2.862.12 3.165.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.922.435.375.81 1.096.81 2.21 0 1.596-.015 2.885-.015 3.28 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
-          </svg>
-          <span>View on GitHub</span>
-        </a>
-
-        <span className="text-xs text-slate-600">
-          Developed by CODE_PAGLU with ❤️
-        </span>
-
-      </div>
-
-    </div>
-
-  </div>
-</footer>
+      </footer>
+      {/* Floating AI Chatbot — renders above everything */}
+      <RiskChat selectedCountryId={selectedCountry?.id} />
     </div>
   );
 }

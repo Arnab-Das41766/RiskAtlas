@@ -58,10 +58,20 @@ export function CountrySearch({ countries, onSelect, selectedCountryId }: Countr
                             {countries.map((country) => (
                                 <CommandItem
                                     key={country.id}
-                                    value={country.name}
-                                    onSelect={() => {
-                                        onSelect(country)
-                                        setOpen(false)
+                                    // Use "ID name" so cmdk searches by name but each item is
+                                    // globally unique — prevents cmdk from merging/collapsing
+                                    // items that have similar names.
+                                    value={`${country.id} ${country.name}`}
+                                    onSelect={(val) => {
+                                        // Extract the ID prefix from the compound value and
+                                        // look the country up — guarantees correct selection
+                                        // regardless of cmdk's internal normalisation.
+                                        const id = val.split(' ')[0].toUpperCase();
+                                        const found = countries.find((c) => c.id === id);
+                                        if (found) {
+                                            onSelect(found);
+                                            setOpen(false);
+                                        }
                                     }}
                                     className="flex items-center justify-between px-4 py-2 hover:bg-slate-800 cursor-pointer text-slate-300 hover:text-white"
                                 >

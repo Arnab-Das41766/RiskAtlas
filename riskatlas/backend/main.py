@@ -2752,9 +2752,123 @@ def health_check():
             "policy_monitoring",
             "ai_forecasting",
             "supply_chain_mapping",
-            "supplier_recommendations"
+            "supplier_recommendations",
+            "ai_chatbot"
         ]
     }
+
+
+# ── AI Chatbot ─────────────────────────────────────────────────────────────
+
+class ChatMessage(BaseModel):
+    role: str          # "user" or "assistant"
+    content: str
+
+class ChatRequest(BaseModel):
+    message: str
+    country_id: Optional[str] = None
+    history: Optional[List[ChatMessage]] = []
+
+class ChatResponse(BaseModel):
+    reply: str
+
+
+def build_system_prompt(country_id: Optional[str] = None) -> str:
+    """Build a rich system prompt grounded in all RiskAtlas data."""
+    lines = [
+        "You are RiskAtlas AI, an expert trade risk intelligence assistant.",
+        "You help supply chain managers, procurement teams, and analysts understand",
+        "global trade risks, tariff policies, sanctions, and alternative sourcing strategies.",
+        "Answer concisely and factually, citing specific data when available.",
+        "If asked to compare countries, use the data below.",
+        "",
+        "=== COUNTRY RISK DATABASE ===",
+    ]
+
+    for cid, c in COUNTRIES_DATA.items():
+        lines.append(
+            f"- {c['name']} ({cid}): risk={c['risk_score']}/100 [{c['risk_level']}], "
+            f"trend={c.get('risk_trend','stable')}, tariff={c['tariff_percentage']}%, "
+            f"friend-shore={c.get('friend_shore_score','?')}/100, "
+            f"industries={','.join(c.get('key_industries',[]))}, "
+            f"supply_chain_risk={c.get('supply_chain_risk','Medium')}"
+        )
+
+    lines += ["", "=== ACTIVE POLICY ALERTS ==="]
+    for a in POLICY_ALERTS:
+        lines.append(
+            f"- [{a['impact'].upper()}] {a['title']} ({a['country']}, {a['date']}, {a['category']}): "
+            f"{a['description'][:150]}"
+        )
+
+    lines += ["", "=== SUPPLY CHAIN VULNERABILITY ==="]
+    for industry, sc in SUPPLY_CHAIN_DATA.items():
+        lines.append(
+            f"- {industry}: risk={sc['risk_level']}, concentration={sc['concentration_risk']}, "
+            f"top_suppliers={','.join(sc['top_suppliers'])}"
+        )
+
+    # If a specific country is selected in the UI, highlight it
+    if country_id and country_id.upper() in COUNTRIES_DATA:
+        c = COUNTRIES_DATA[country_id.upper()]
+        lines += [
+            "",
+            f"=== CURRENTLY SELECTED COUNTRY: {c['name']} ({country_id.upper()}) ===",
+            f"Risk Score: {c['risk_score']}/100 ({c['risk_level']})",
+            f"Trend: {c.get('risk_trend','stable')}",
+            f"Tariff Rate: {c['tariff_percentage']}%",
+            f"Friend-Shore Score: {c.get('friend_shore_score','N/A')}/100",
+            f"Key Industries: {', '.join(c.get('key_industries', []))}",
+            f"Trade Policy: {c.get('trade_policy_summary', '')}",
+            f"Supply Chain Risk: {c.get('supply_chain_risk','Medium')}",
+            f"AI 3-month forecast: {c.get('ai_forecast',{}).get('3_month',{})}",
+        ]
+        if c.get('headlines'):
+            lines.append("Recent Headlines:")
+            for h in c['headlines'][:3]:
+                lines.append(f"  * [{h['date']}] {h['title']} — {h['source']}")
+
+    return "\n".join(lines)
+
+
+@app.post("/chat", response_model=ChatResponse)
+def chat(request: ChatRequest):
+    """Chat with RiskAtlas AI powered by local Ollama model."""
+    import httpx
+
+    system_prompt = build_system_prompt(request.country_id)
+
+    # Build message list for Ollama REST API
+    messages = [{"role": "system", "content": system_prompt}]
+    for msg in (request.history or []):
+        messages.append({"role": msg.role, "content": msg.content})
+    messages.append({"role": "user", "content": request.message})
+
+    try:
+        # Call Ollama's native REST API — no extra Python package needed
+        resp = httpx.post(
+            "http://localhost:11434/api/chat",
+            json={
+                "model": "qwen2.5-coder:7b",
+                "messages": messages,
+                "stream": False,
+                "options": {"temperature": 0.3, "num_predict": 512},
+            },
+            timeout=120.0,   # 7B model can be slow on first inference
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        reply = data["message"]["content"]
+        return ChatResponse(reply=reply)
+
+    except httpx.ConnectError:
+        raise HTTPException(
+            status_code=503,
+            detail="Cannot connect to Ollama. Run `ollama serve` first."
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Ollama error: {str(e)}")
+
 
 if __name__ == "__main__":
     import uvicorn

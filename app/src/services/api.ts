@@ -111,3 +111,20 @@ export async function simulateCost(data: CostSimulationRequest): Promise<CostSim
   }
   return response.json();
 }
+
+// AI Chatbot
+export async function sendChatMessage(
+  message: string,
+  countryId?: string,
+  history: { role: string; content: string }[] = []
+): Promise<{ reply: string }> {
+  const response = await fetch(`${API_BASE_URL}/chat`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, country_id: countryId, history }),
+  });
+  if (!response.ok) {
+    throw new Error('Failed to get chat response');
+  }
+  return response.json();
+}
