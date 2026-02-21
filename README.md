@@ -15,6 +15,7 @@ A real-time trade risk intelligence dashboard that helps businesses monitor geop
 | 🔔 **Policy Alerts Feed** | Real-time trade policy updates, filterable by category (Export Control, Tariff, Subsidy, etc.) |
 | 🔗 **Supply Chain Vulnerability** | Industry-level risk and concentration mapping with supplier analysis |
 | 🔄 **Alternative Suppliers** | Friend-shoring recommendations for high-risk countries |
+| 🤖 **RiskChat AI** | Local LLM-powered assistant (Qwen 2.5) with full database access and map context |
 
 ---
 
@@ -32,8 +33,9 @@ A real-time trade risk intelligence dashboard that helps businesses monitor geop
 
 ### Backend
 - **FastAPI** (Python) — high-performance REST API
-- **Uvicorn** — ASGI server
-- **Pydantic** — data validation
+- **Ollama** — local LLM engine for processing AI requests
+- **Qwen 2.5 Coder 7B** — specialized AI model for high-accuracy trade risk analysis
+- **httpx** — for robust internal communication between Backend and AI engine
 
 ---
 
@@ -95,8 +97,26 @@ Make sure you have these installed before starting:
 | **npm** | 9 or higher | `npm --version` | Comes with Node.js |
 | **Python** | 3.9 or higher | `python --version` | [python.org](https://www.python.org/downloads/) |
 | **pip** | Latest | `pip --version` | Comes with Python |
+| **Ollama** | Latest | `ollama --version` | [ollama.com](https://ollama.com/) |
 
 > **💡 Tip for Windows users:** When installing Python, make sure to check **"Add Python to PATH"** during installation.
+
+---
+
+### Step 0: Set Up the AI Engine (Terminal 0)
+
+RiskAtlas uses a local LLM to ensure data privacy. You must have Ollama running:
+
+1. **Install Ollama** from [ollama.com](https://ollama.com/).
+2. **Download the model**: Open a terminal and run:
+   ```bash
+   ollama pull qwen2.5-coder:7b
+   ```
+3. **Start the service**:
+   ```bash
+   ollama serve
+   ```
+   *(Keep this running!)*
 
 ---
 
@@ -254,6 +274,7 @@ The backend runs at `http://localhost:8000`. Key endpoints:
 | `GET` | `/api/supply-chain/{industry}` | Supply chain vulnerability data |
 | `GET` | `/api/alternative-suppliers/{country_id}` | Alternative supplier recommendations |
 | `GET` | `/api/industries` | List of tracked industries |
+| `POST` | `/api/chat` | Chat with RiskAtlas AI (requires Ollama) |
 | `GET` | `/health` | Health check |
 | `GET` | `/docs` | Swagger API documentation (interactive) |
 
